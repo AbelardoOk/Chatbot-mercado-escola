@@ -99,12 +99,6 @@ intencoes:
       incentivar a economia criativa e aproximar produtores
       e consumidores.
 
-  saudacao:
-    descricao: "saudações"
-    resposta: >
-      Olá! Seja bem-vindo! Posso ajudar com informações
-      sobre horários, localização e produtos da feira.
-
 # Respostas dos nós que não são intenções. {assuntos} vira a lista de descrições
 # das intenções; {opcao1}/{opcao2}, as duas intenções mais prováveis.
 respostas:
