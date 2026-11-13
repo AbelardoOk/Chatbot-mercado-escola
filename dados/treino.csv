@@ -1,1 +1,72 @@
 texto,intencao,origem
+
+# APAGAR DEPOIS - INTENCAO
+Que horas começa a feira?,horario,humano
+Que horas fecha a feira?,horario,humano
+Que dia é a feira?,horario,humano
+A feira abre na sexta?,horario,humano
+Onde é a feira do Mercado Escola?,localizacao,humano
+É perto da onde?,localizacao,humano,
+A feira acontece dentro da ufms?,localizacao,humano
+Na feira aceitam pix?,pagamento,humano
+Na feira aceitam boleto?,pagamento,humano
+La na feira aceitam cheque?,pagamento,humano
+
+
+# APAGAR DEPOIS - chitchat
+Boa tarde!,chitchat,humano
+Bom dia,chitchat,humano
+Boa noite,chitchat,humano
+"Oi, tudo bem?",chitchat,humano
+Me tira uma dúvida?,chitchat,humano
+Obrigado,chitchat,humano
+Muito obrigada,chitchat,humano
+Opa,chitchat,humano
+Tchau,chitchat,humano
+Tchauzinho,chitchat,humano
+Obrigada pela ajuda,chitchat,humano
+Show era isso que eu queria,chitchat,humano
+obg,chitchat,humano
+Tendi,chitchat,humano
+ok,chitchat,humano
+Beleza,chitchat,humano
+brigadão,chitchat,humano
+Estou falando com um bot?,chitchat,humano
+Grato pela ajuda,chitchat,humano
+Ter-vos-ei em grande consideração,chitchat,humano
+
+
+# APAGAR DEPOIS - fora_dominio
+
+Vai chover hoje?,fora_dominio,humano
+tem tempestade quinta?,fora_dominio,humano
+quem vai ganhar o brasileirão?,fora_dominio,humano
+quanto ta o euro?,fora_dominio,humano
+Quanto está o valor do kwanza em real?,fora_dominio,humano
+conta uma história pra mim,fora_dominio,humano
+qual a melhor padaria da região?,fora_dominio,humano
+quem vai ganhar amanhã no jogo?,fora_dominio,humano
+Você é palmeiras?,fora_dominio,humano
+onde tem paçoca aqui?,fora_dominio,humano
+
+Ta chovendo aí?,fora_dominio,humano
+Toda um samba pra mim,fora_dominio,humano
+Voce foi programado em C?,fora_dominio,humano
+O Bruno vai me dar 10 em IA?,fora_dominio,humano
+Qual a melhor padaria do Brasil?,fora_dominio,humano
+Quanto é 2 + 2?,fora_dominio,humano
+Qual é a fórmula do pitágoras la?,fora_dominio,humano
+"Ola, como renovo o empréstimo do liro na biblioteca?",fora_dominio,humano
+Tem opção vegetariana hoje?,fora_dominio,humano
+Qual o cardápio de hoje?,fora_dominio,humano
+
+Que horas começa a aula?,fora_dominio,humano
+Que horas acaba a aula,fora_dominio,humano
+que dia tem frango no ru?,fora_dominio,humano
+O multiuso abre na sexta?,fora_dominio,humano
+Onde é o auditorio 2?,fora_dominio,humano
+tão aceitando pix no ru?,fora_dominio,humano,
+onde fica a feira do bosque da paz?,fora_dominio,humano
+A feira do bosque da paz funciona sexta?,fora_dominio,humano
+No terminal aceitam boleto?,fora_dominio,humano
+O terminal abre as 8 amanhã?,fora_dominio,humano
