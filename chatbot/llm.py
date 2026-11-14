@@ -155,6 +155,7 @@ class ClienteLLM:
                     messages=mensagens,
                     temperature=kwargs.get("temperatura", self.temperatura),
                     max_tokens=kwargs.get("max_tokens", self.max_tokens),
+                    response_format=kwargs.get("response_format"),
                 )
                 self.uso["chamadas"] += 1
                 if getattr(resp, "usage", None):
