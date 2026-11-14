@@ -153,6 +153,10 @@ def gerar(
                         response_format={"type": "json_object"},
                     )
                     frases = _ler_json(resposta)
+                    if len(frases) < n_por_estilo:
+                        raise ValueError(
+                            f"modelo retornou {len(frases)} frases; eram esperadas {n_por_estilo}"
+                        )
                     break
                 except (ValueError, json.JSONDecodeError) as erro:
                     erros.append(f"tentativa {tentativa}: {erro}")
