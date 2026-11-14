@@ -24,7 +24,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RAIZ))
 
 from chatbot.config import carregar_config  # noqa: E402
-from chatbot.geracao import _deduplicar, gerar  # noqa: E402
+from chatbot.geracao import _deduplicar, _normalizar, gerar  # noqa: E402
 from chatbot.llm import ClienteLLM, ErroLLM  # noqa: E402
 
 COLUNAS = ["texto", "intencao", "origem"]
@@ -43,11 +43,39 @@ def _carregar_existente(caminho: Path) -> pd.DataFrame:
 
 
 def _mesclar(antigos: pd.DataFrame, novos: pd.DataFrame, limiar: float):
-    """Mantém os dados existentes como prioridade e acrescenta só frases novas."""
-    registros = antigos.to_dict("records") + novos.to_dict("records")
-    aceitos, repetidos, conflitos = _deduplicar(registros, limiar)
-    return pd.DataFrame(aceitos, columns=COLUNAS), repetidos, conflitos
+    """Preserva integralmente o CSV existente e filtra somente as novas frases."""
+    aceitos_novos, repetidos, conflitos = _deduplicar(
+        novos.to_dict("records"), limiar
+    )
+    existentes = antigos.to_dict("records")
+    chaves = {_normalizar(item["texto"]): item["intencao"] for item in existentes}
+    por_rotulo = {}
+    for item in existentes:
+        por_rotulo.setdefault(item["intencao"], []).append(_normalizar(item["texto"]))
 
+    adicionados = []
+    for item in aceitos_novos:
+        chave = _normalizar(item["texto"])
+        rotulo = item["intencao"]
+        if chave in chaves:
+            if chaves[chave] != rotulo:
+                conflitos += 1
+            else:
+                repetidos += 1
+            continue
+        anteriores = por_rotulo.setdefault(rotulo, [])
+        if any(
+            __import__("difflib").SequenceMatcher(None, chave, anterior).ratio() >= limiar
+            for anterior in anteriores
+        ):
+            repetidos += 1
+            continue
+        chaves[chave] = rotulo
+        anteriores.append(chave)
+        adicionados.append(item)
+
+    combinados = existentes + adicionados
+    return pd.DataFrame(combinados, columns=COLUNAS), repetidos, conflitos
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(
