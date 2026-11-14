@@ -16,6 +16,7 @@ import argparse
 import os
 import sys
 import tempfile
+from difflib import SequenceMatcher
 from pathlib import Path
 
 import pandas as pd
@@ -65,7 +66,7 @@ def _mesclar(antigos: pd.DataFrame, novos: pd.DataFrame, limiar: float):
             continue
         anteriores = por_rotulo.setdefault(rotulo, [])
         if any(
-            __import__("difflib").SequenceMatcher(None, chave, anterior).ratio() >= limiar
+            SequenceMatcher(None, chave, anterior).ratio() >= limiar
             for anterior in anteriores
         ):
             repetidos += 1
