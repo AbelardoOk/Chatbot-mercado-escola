@@ -1,0 +1,309 @@
+# Registro de geração de dados com LLM
+
+Gerado por scripts/gerar_dados_llm.py. Use na declaração de uso de IA.
+
+## 14/11/2026 12:33 -04 — modelo openai/gpt-6-luna
+
+- Formato: JSON estruturado (json_object)
+- Candidatas: 50; aceitas: 49
+- Duplicatas/quase duplicatas removidas: 1
+- Conflitos exatos entre rótulos removidos: 0
+- Limiar de similaridade: 0.94
+
+### horario — perguntas completas e educadas
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: horario.
+Significado do rótulo: horário de funcionamento.
+Estilo desta rodada: perguntas completas e educadas.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: localização da feira; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### horario — mensagens curtas e informais, com abreviações naturais
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: horario.
+Significado do rótulo: horário de funcionamento.
+Estilo desta rodada: mensagens curtas e informais, com abreviações naturais.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: localização da feira; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### horario — mensagens com erros leves de digitação, acentuação ou pontuação
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: horario.
+Significado do rótulo: horário de funcionamento.
+Estilo desta rodada: mensagens com erros leves de digitação, acentuação ou pontuação.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: localização da feira; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### horario — mensagens contextualizadas, como alguém explicando sua situação
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: horario.
+Significado do rótulo: horário de funcionamento.
+Estilo desta rodada: mensagens contextualizadas, como alguém explicando sua situação.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: localização da feira; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### horario — mensagens muito curtas, de 1 a 4 palavras
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: horario.
+Significado do rótulo: horário de funcionamento.
+Estilo desta rodada: mensagens muito curtas, de 1 a 4 palavras.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: localização da feira; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+## 15/11/2026 07:32 -04 — modelo openai/gpt-6-luna
+
+- Formato: JSON estruturado (json_object)
+- Candidatas: 50; aceitas: 49
+- Duplicatas/quase duplicatas removidas: 1
+- Conflitos exatos entre rótulos removidos: 0
+- Limiar de similaridade: 0.94
+
+### localizacao — perguntas completas e educadas
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: localizacao.
+Significado do rótulo: localização da feira.
+Estilo desta rodada: perguntas completas e educadas.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: horário de funcionamento; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### localizacao — mensagens curtas e informais, com abreviações naturais
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: localizacao.
+Significado do rótulo: localização da feira.
+Estilo desta rodada: mensagens curtas e informais, com abreviações naturais.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: horário de funcionamento; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### localizacao — mensagens com erros leves de digitação, acentuação ou pontuação
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: localizacao.
+Significado do rótulo: localização da feira.
+Estilo desta rodada: mensagens com erros leves de digitação, acentuação ou pontuação.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: horário de funcionamento; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### localizacao — mensagens contextualizadas, como alguém explicando sua situação
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: localizacao.
+Significado do rótulo: localização da feira.
+Estilo desta rodada: mensagens contextualizadas, como alguém explicando sua situação.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: horário de funcionamento; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### localizacao — mensagens muito curtas, de 1 a 4 palavras
+
+- Retornadas: 10; utilizadas: 10; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: localizacao.
+Significado do rótulo: localização da feira.
+Estilo desta rodada: mensagens muito curtas, de 1 a 4 palavras.
+Quantidade exata: 10 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 10 frases distintas.
+Não gere perguntas sobre estas outras intenções: horário de funcionamento; produtos disponíveis; produtores participantes; formas de pagamento; objetivo da feira.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
