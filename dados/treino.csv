@@ -5,6 +5,16 @@ Que horas começa a feira?,horario,humano
 Que horas fecha a feira?,horario,humano
 Que dia é a feira?,horario,humano
 A feira abre na sexta?,horario,humano
+"Opa, que horas abre o mercado escola hoje, chefe?", horario,humano
+Até que horas o campus fica aberto para eu acessar o mercado escola?, horario,humano
+que dias da semana o mercado escola fica aberto?,horario,humano
+quais são os melhores horários para chegar no mercado escola e por que?,horario,humano
+O mercado escola tem horários em que a feira fica mais movimentada?, horario,humano
+Horario de funcionamento do mercado escola, horario, humano
+Qual horário o mercado escola fecha?, horario, humano
+Qual o pior horário para chegar no mercado escola?, horario, humano
+qual horario que os feirantes começam a chegar no mercado escola?, horario, humano
+horario que mais pessoas chegam no mercado escola, horario, humano
 
 Você poderia me informar qual é o horário de funcionamento do Mercado Escola?,horario,llm
 "Por gentileza, até que horas o Mercado Escola fica aberto?",horario,llm
@@ -62,6 +72,15 @@ Até que horas?,horario,llm
 Onde é a feira do Mercado Escola?,localizacao,humano
 É perto da onde?,localizacao,humano,
 A feira acontece dentro da ufms?,localizacao,humano
+a feira ocorre próxima de qual bloco?,localizacao,humano
+Onde fica o mercado escola?,localizacao,humano
+O mercado escola, você sabe onde fica?,localizacao,humano
+Em qual região se localiza o mercado escola?,localizacao,humano
+Local: mercado escola,localizacao,humano
+"mercado escola,localização",localizacao,humano
+onde que fica localizado o mercado escola,localizacao,humano
+para onde é o mercado escola,localizacao,humano
+O mercado escola se localiza em qual região da ufms?,localizacao,humano
 
 Você poderia me informar onde fica o Mercado Escola?,localizacao,llm
 "Por gentileza, em que local do campus acontece a feira do Mercado Escola?",localizacao,llm
@@ -231,6 +250,16 @@ qual a melhor padaria da região?,fora_dominio,humano
 quem vai ganhar amanhã no jogo?,fora_dominio,humano
 Você é palmeiras?,fora_dominio,humano
 onde tem paçoca aqui?,fora_dominio,humano
+onde fica o bar batata?,fora_dominio,humano
+Quando vai chover?,fora_dominio,humano
+Donald trump é judeu?,fora_dominio,humano
+Lakers vão vencer nessa temporada?,fora_dominio,humano
+o homeme aranha aguenta carregar quantas toneladas?,fora_dominio,humano
+Reed Richards foi corno nas hqs?,fora_dominio,humano
+O cois consegue ter pedra no rin?,fora_dominio,humano
+Quanto custa comprar uma casa na china?,fora_dominio,humano
+Valor da moeda chinesa?,fora_dominio,humano
+como resolver uma torneira frouxa?,fora_dominio,humano
 
 Ta chovendo aí?,fora_dominio,humano
 Toda um samba pra mim,fora_dominio,humano
