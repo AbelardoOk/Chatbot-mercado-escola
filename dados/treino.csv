@@ -114,12 +114,61 @@ Onde encontro a feira?,localizacao,llm
 Qual a localização do Mercado Escola?,localizacao,llm
 
 
-# APAGAR DEPOIS - INTENCAO - pagamento (3 humano)
+# APAGAR DEPOIS - INTENCAO - pagamento (50 llm 3 humano)
 Na feira aceitam pix?,pagamento,humano
 Na feira aceitam boleto?,pagamento,humano
 La na feira aceitam cheque?,pagamento,humano
 
-
+"Por gentileza, quais formas de pagamento são aceitas no Mercado Escola?",pagamento,llm
+Gostaria de saber se posso pagar minhas compras com cartão de crédito.,pagamento,llm
+Vocês aceitam Pix como forma de pagamento no Mercado Escola?,pagamento,llm
+Poderia me informar se é possível pagar em dinheiro?,pagamento,llm
+Quais opções de pagamento estão disponíveis para quem compra no Mercado Escola?,pagamento,llm
+"Por favor, vocês aceitam cartão de débito nas compras?",pagamento,llm
+Consigo pagar com cartão ou o pagamento precisa ser feito de outra forma?,pagamento,llm
+Gostaria de confirmar se o Mercado Escola aceita pagamento por aproximação.,pagamento,llm
+Há alguma opção de pagamento digital disponível para as compras?,pagamento,llm
+Poderiam me dizer se posso usar vale-alimentação para pagar no Mercado Escola?,pagamento,llm
+Quais formas de pagamento aceitam aí?,pagamento,llm
+Dá pra pagar no Pix?,pagamento,llm
+Aceita cartão ou só dinheiro?,pagamento,llm
+Posso pagar por aproximação?,pagamento,llm
+Rola pagar com débito?,pagamento,llm
+Tem como fazer o pagamento no crédito?,pagamento,llm
+Aceitam pagamento em dinheiro?,pagamento,llm
+Consigo pagar com QR Code?,pagamento,llm
+Quais meios de pagamento vcs recebem?,pagamento,llm
+Dá pra dividir o pagamento no cartão?,pagamento,llm
+Quais formas de pagamento são aceitas no Mercado Escola?,pagamento,llm
+Dá pra pagar no pix ou só no cartão?,pagamento,llm
+Aceitam dinheiro em espécie aí na feira?,pagamento,llm
+Posso pagar com cartão de débito nas compras?,pagamento,llm
+Tem como fazer o pagamento por aproximação?,pagamento,llm
+Queria saber se aceitam cartão de crédito também.,pagamento,llm
+O pagamento é feito na hora ou posso usar algum app?,pagamento,llm
+Consigo pagar com vale-alimentação no Mercado Escola?,pagamento,llm
+Aceitam transferência bancária ou apenas pagamento presencial?,pagamento,llm
+Quais são as opções de pagamento? Não achei essa informação.,pagamento,llm
+"Estou pensando em comprar algumas coisas no Mercado Escola, mas preciso saber quais formas de pagamento são aceitas.",pagamento,llm
+Vou passar aí com minha família e queria me organizar antes: dá para pagar com cartão ou só em dinheiro?,pagamento,llm
+Nunca comprei no Mercado Escola e fiquei na dúvida sobre como posso pagar minhas compras.,pagamento,llm
+Estou sem dinheiro em espécie hoje; vocês aceitam pagamento por Pix no Mercado Escola?,pagamento,llm
+"Minha filha quer comprar alguns produtos na feira, então queria confirmar se ela pode usar cartão de débito.",pagamento,llm
+"Vou levar dinheiro e cartão, mas gostaria de saber quais opções de pagamento costumam aceitar por aí.",pagamento,llm
+Estou planejando uma visita com colegas e preciso saber se cada um pode pagar a própria compra com cartão.,pagamento,llm
+Tenho o valor no celular e prefiro não sacar; é possível pagar as compras do Mercado Escola por meio eletrônico?,pagamento,llm
+"Queria comprar algumas coisas, mas antes preciso saber se o pagamento é feito em dinheiro ou se também aceitam outras formas.",pagamento,llm
+Estou organizando minhas despesas da semana e queria confirmar quais meios de pagamento posso usar no Mercado Escola.,pagamento,llm
+Aceitam cartão?,pagamento,llm
+Pagamento por Pix?,pagamento,llm
+Quais formas de pagamento?,pagamento,llm
+Aceita débito?,pagamento,llm
+Crédito ou dinheiro?,pagamento,llm
+Tem pagamento por aproximação?,pagamento,llm
+Posso pagar em dinheiro?,pagamento,llm
+Pix é aceito?,pagamento,llm
+Parcelam no cartão?,pagamento,llm
+Aceitam vale-refeição?,pagamento,llm
 
 
 # APAGAR DEPOIS - chitchat
