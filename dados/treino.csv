@@ -1,10 +1,5 @@
 texto,intencao,origem
 
-# APAGAR DEPOIS - INTENCAO
-Na feira aceitam pix?,pagamento,humano
-Na feira aceitam boleto?,pagamento,humano
-La na feira aceitam cheque?,pagamento,humano
-
 # APAGAR DEPOIS - INTENCAO HORARIO (50 llm e 4 humano)
 Que horas começa a feira?,horario,humano
 Que horas fecha a feira?,horario,humano
@@ -117,6 +112,13 @@ Onde será montado o Mercado Escola?,localizacao,llm
 Como chego à feira?,localizacao,llm
 Onde encontro a feira?,localizacao,llm
 Qual a localização do Mercado Escola?,localizacao,llm
+
+
+# APAGAR DEPOIS - INTENCAO - pagamento (3 humano)
+Na feira aceitam pix?,pagamento,humano
+Na feira aceitam boleto?,pagamento,humano
+La na feira aceitam cheque?,pagamento,humano
+
 
 
 
