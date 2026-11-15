@@ -1,6 +1,5 @@
 texto,intencao,origem
 
-# APAGAR DEPOIS - INTENCAO HORARIO (50 llm e 4 humano)
 Que horas começa a feira?,horario,humano
 Que horas fecha a feira?,horario,humano
 Que dia é a feira?,horario,humano
@@ -22,7 +21,6 @@ Gostaria de saber em quais horários posso visitar o Mercado Escola.,horario,llm
 O Mercado Escola funciona durante todo o dia ou tem horários específicos de atendimento?,horario,llm
 Você sabe me dizer a partir de que horas o Mercado Escola abre?,horario,llm
 "Poderia me informar se o Mercado Escola abre aos sábados e, em caso positivo, em qual horário?",horario,llm
-"Estou planejando uma visita e gostaria de saber o horário de funcionamento do Mercado Escola, por favor.",horario,llm
 O Mercado Escola fecha em algum horário durante o dia ou permanece aberto direto?,horario,llm
 "Por favor, qual é o horário de atendimento do Mercado Escola nos dias úteis?",horario,llm
 Você poderia confirmar se o Mercado Escola funciona aos domingos e qual é o horário?,horario,llm
@@ -36,16 +34,11 @@ Hoje o Mercado Escola tá aberto até quando?,horario,llm
 Sabe se o Mercado Escola funciona à tarde?,horario,llm
 O horário mudou nesta semana?,horario,llm
 Tem algum horário certo pra visitar o Mercado Escola?,horario,llm
-Que horas o Mercado Escola começa a funcionar?,horario,llm
 O Mercado Escola abre em quais dias e horários?,horario,llm
 Até que horas dá pra visitar o Mercado Escola?,horario,llm
-Alguém sabe o horário de funcionamento do Mercado Escola?,horario,llm
 "Queria passar aí depois da aula, mas não sei que horas fecha.",horario,llm
-O Mercado Escola abre de manhã ou só mais tarde?,horario,llm
 Qual é o horário de abertura do Mercado Escola?,horario,llm
-O Mercado Escola funciona durante o dia todo?,horario,llm
 Não achei essa informação: que horas o Mercado Escola fecha?,horario,llm
-"Estou pensando em passar no Mercado Escola depois da aula, mas não sei até que horas ele fica aberto. Qual é o horário de funcionamento?",horario,llm
 Vou acompanhar uma colega numa visita e queria me organizar antes: em quais horários o Mercado Escola atende o público?,horario,llm
 "Como meu intervalo é curto, preciso saber que horas o Mercado Escola abre e fecha para ver se consigo passar por lá.",horario,llm
 Estou montando meu roteiro pelo campus para amanhã. Qual é o horário em que o Mercado Escola funciona?,horario,llm
@@ -57,24 +50,22 @@ Saio do laboratório perto do fim do dia e queria saber se ainda dá tempo de vi
 "Um parente vai conhecer o campus comigo, e queremos nos programar com antecedência. Qual é o horário de funcionamento do Mercado Escola?",horario,llm
 Que horas funciona?,horario,llm
 Qual o horário?,horario,llm
-Abre até quando?,horario,llm
+A feira fica aberta até de noite?,horario,llm
 Fecha que horas?,horario,llm
 Quando abre?,horario,llm
 Horário de funcionamento?,horario,llm
 Funciona aos sábados?,horario,llm
-Que horas fecha?,horario,llm
 Abre hoje?,horario,llm
 Até que horas?,horario,llm
 
 
 
-# APAGAR DEPOIS - INTENCAO - localizacao (50 llm e 3 humano)
 Onde é a feira do Mercado Escola?,localizacao,humano
-É perto da onde?,localizacao,humano,
+É perto da onde?,localizacao,humano
 A feira acontece dentro da ufms?,localizacao,humano
 a feira ocorre próxima de qual bloco?,localizacao,humano
 Onde fica o mercado escola?,localizacao,humano
-O mercado escola, você sabe onde fica?,localizacao,humano
+"O mercado escola, você sabe onde fica?",localizacao,humano
 Em qual região se localiza o mercado escola?,localizacao,humano
 Local: mercado escola,localizacao,humano
 "mercado escola,localização",localizacao,humano
@@ -85,14 +76,11 @@ O mercado escola se localiza em qual região da ufms?,localizacao,humano
 Você poderia me informar onde fica o Mercado Escola?,localizacao,llm
 "Por gentileza, em que local do campus acontece a feira do Mercado Escola?",localizacao,llm
 Estou planejando visitar a feira; poderia me dizer qual é o endereço do Mercado Escola?,localizacao,llm
-"Para eu conseguir chegar até aí, você pode explicar onde o Mercado Escola está localizado?",localizacao,llm
+Como chego a pé ao Mercado Escola saindo do Autocine?,localizacao,llm
 A feira do Mercado Escola acontece em qual prédio ou espaço da universidade?,localizacao,llm
 Você sabe me informar como encontro o local do Mercado Escola dentro do campus?,localizacao,llm
 Poderia indicar em que parte da universidade fica o espaço da feira?,localizacao,llm
-Gostaria de visitar o Mercado Escola. Você poderia me orientar sobre onde ele fica?,localizacao,llm
-Qual é a localização da feira do Mercado Escola?,localizacao,llm
 Você poderia me dizer se o Mercado Escola fica dentro do campus e em que área está?,localizacao,llm
-Onde fica a feira do Mercado Escola?,localizacao,llm
 A feira rola em qual lugar do campus?,localizacao,llm
 "Tô chegando na faculdade, onde encontro a feira?",localizacao,llm
 Qual bloco fica mais perto do Mercado Escola?,localizacao,llm
@@ -103,16 +91,12 @@ Como faço pra chegar no local da feira?,localizacao,llm
 Em que parte da universidade fica o Mercado Escola?,localizacao,llm
 Alguém sabe onde montam a feira?,localizacao,llm
 Qual é o endereço certinho do Mercado Escola?,localizacao,llm
-A feira acontece em qual parte da universidade?,localizacao,llm
 "Tô procurando o Mercado Escola, onde devo ir?",localizacao,llm
-Em que prédio ou espaço fica a feira?,localizacao,llm
 Como faço pra chegar até o Mercado Escola no campus?,localizacao,llm
 A feira fica perto de qual entrada da universidade?,localizacao,llm
 "Me perdi aqui, onde é o local do Mercado Escola?",localizacao,llm
-O Mercado Escola fica dentro do campus ou em outro lugar?,localizacao,llm
 Pode me dizer onde está sendo realizada a feira?,localizacao,llm
-Estou vindo pela primeira vez ao Mercado Escola e queria saber em que lugar ele fica.,localizacao,llm
-"Vou sair do campus para visitar a feira, mas não sei onde ela é montada. Você pode me dizer a localização?",localizacao,llm
+Vou pra UFMS só pra visitar a feira. Qual é o ponto de referência pra achar o Mercado Escola?,localizacao,llm
 Minha colega comentou sobre o Mercado Escola e estou tentando descobrir em qual espaço acontece.,localizacao,llm
 Estou me organizando para passar na feira depois da aula; qual é o endereço do Mercado Escola?,localizacao,llm
 Nunca fui ao Mercado Escola e não conheço bem a região. Onde encontro a feira?,localizacao,llm
@@ -120,20 +104,15 @@ Nunca fui ao Mercado Escola e não conheço bem a região. Onde encontro a feira
 Estou chegando à universidade por outro portão e queria confirmar onde acontece a feira.,localizacao,llm
 Um visitante me pediu o endereço do Mercado Escola. Qual localização posso passar para ele?,localizacao,llm
 Estou no campus agora e não sei para que lado ir para chegar ao Mercado Escola. Onde fica?,localizacao,llm
-Pretendo conhecer a feira pela primeira vez e queria saber em qual área da universidade ela está localizada.,localizacao,llm
 Onde fica a feira?,localizacao,llm
 Qual o endereço da feira?,localizacao,llm
 Onde acontece o Mercado Escola?,localizacao,llm
 Qual é o local da feira?,localizacao,llm
-A feira fica onde?,localizacao,llm
-Em que lugar ocorre?,localizacao,llm
-Onde será montado o Mercado Escola?,localizacao,llm
+Tem um mapa mostrando onde fica a feira?,localizacao,llm
 Como chego à feira?,localizacao,llm
-Onde encontro a feira?,localizacao,llm
 Qual a localização do Mercado Escola?,localizacao,llm
 
 
-# APAGAR DEPOIS - INTENCAO - pagamento (50 llm 3 humano)
 Na feira aceitam pix?,pagamento,humano
 Na feira aceitam boleto?,pagamento,humano
 La na feira aceitam cheque?,pagamento,humano
@@ -190,7 +169,6 @@ Parcelam no cartão?,pagamento,llm
 Aceitam vale-refeição?,pagamento,llm
 
 
-# APAGAR DEPOIS - chitchat
 Boa tarde!,chitchat,humano
 Bom dia,chitchat,humano
 Boa noite,chitchat,humano
@@ -228,17 +206,16 @@ legal, chitchat, humano
 beleza valeu, chitchat, humano
 beleza vlw, chitchat, humano
 blz valeu, chitchat, humano
-blz vlw, chitchat humano
+blz vlw,chitchat,humano
 "beleza, valeu", chitchat, humano
 "beleza, vlw", chitchat, humano
 "blz, valeu", chitchat, humano
-"blz, vlw", chitchat humano
+"blz, vlw",chitchat,humano
 ta bom, chitchat, humano
 tabom, chitchat, humano
 ta, chitchat, humano
 
 
-# APAGAR DEPOIS - fora_dominio
 
 Vai chover hoje?,fora_dominio,humano
 tem tempestade quinta?,fora_dominio,humano
@@ -277,7 +254,7 @@ Que horas acaba a aula,fora_dominio,humano
 que dia tem frango no ru?,fora_dominio,humano
 O multiuso abre na sexta?,fora_dominio,humano
 Onde é o auditorio 2?,fora_dominio,humano
-tão aceitando pix no ru?,fora_dominio,humano,
+tão aceitando pix no ru?,fora_dominio,humano
 onde fica a feira do bosque da paz?,fora_dominio,humano
 A feira do bosque da paz funciona sexta?,fora_dominio,humano
 No terminal aceitam boleto?,fora_dominio,humano

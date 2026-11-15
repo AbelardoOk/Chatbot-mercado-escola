@@ -14,6 +14,7 @@
 | Ferramenta (nome e versão/modelo)      | Como acessaram              | Quem usou  |
 | -------------------------------------- | --------------------------- | ---------- |
 | _OpenRouter, modelo openai/gpt-6-luna_ | _chave própria, via código_ | _Abelardo_ |
+| Codex (OpenAI, família GPT-6) | Aplicativo Codex | Integrante responsável pela revisão |
 | _Exemplo: ChatGPT (versão gratuita)_   | _navegador_                 | _Fulana_   |
 | TODO                                   |                             |            |
 
@@ -21,7 +22,8 @@
 
 | #   | Etapa             | O que a IA fez                                    | Prompt (ou resumo + link para o registro)                  | O que o grupo fez com o resultado                             |
 | --- | ----------------- | ------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
-| 1   | _Dados de treino_ | _Gerou 100 frases para 2 intenções (50 cada)_     | _ver `dados/prompts_llm.md`_                               | _Revisamos todas; todos rótulos aprovados para o teste_       |
+| 1   | _Dados de treino_ | _Gerou 100 frases para 2 intenções (50 cada)_     | _ver `dados/prompts_llm.md`_                               | Os exemplos gerados são destinados ao treino após revisão.       |
+| 2 | Dados de treino | Revisou 98 frases de horário e localização segundo o Passo 6 do enunciado. Conferiu naturalidade, repetições e rótulos. | Pedido no Codex para ler cada frase de dados/gerados_llm.csv e sugerir correções com base no PDF do trabalho. | Após autorização do integrante responsável, foram mantidas 76 frases como estavam, 4 foram reescritas e 18 foram retiradas por repetição. As mesmas alterações foram aplicadas aos exemplos correspondentes em dados/treino.csv. |
 | 0   | _Chatbot_         | _Redige as respostas das intenções e do chitchat_ | _prompts em `chatbot/llm.py` + persona do `grupo.yaml`_    | _Ajustamos a persona 3 vezes após testes (seção X do artigo)_ |
 | 0   | _Código_          | _Sugeriu a função que plota a curva de validação_ | _"como plotar o resultado do GridSearchCV em função de C"_ | _Adaptamos nomes e eixos; entendemos e testamos_              |
 | 0   | _Escrita_         | _Revisou a gramática da Introdução_               | _"revise a gramática sem mudar o conteúdo: ..."_           | _Aceitamos parte das sugestões_                               |
