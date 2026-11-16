@@ -1,5 +1,6 @@
 texto,intencao,origem
 
+# HORARIO -> 14 Hum / 42 IA
 Que horas começa a feira?,horario,humano
 Que horas fecha a feira?,horario,humano
 Que dia é a feira?,horario,humano
@@ -60,6 +61,7 @@ Até que horas?,horario,llm
 
 
 
+# LOCALIZACAO -> 12 Hum / 37 IA
 Onde é a feira do Mercado Escola?,localizacao,humano
 É perto da onde?,localizacao,humano
 A feira acontece dentro da ufms?,localizacao,humano
@@ -113,6 +115,8 @@ Como chego à feira?,localizacao,llm
 Qual a localização do Mercado Escola?,localizacao,llm
 
 
+
+# PAGAMENTO -> 3 Hum / 50 IA
 Na feira aceitam pix?,pagamento,humano
 Na feira aceitam boleto?,pagamento,humano
 La na feira aceitam cheque?,pagamento,humano
@@ -169,6 +173,60 @@ Parcelam no cartão?,pagamento,llm
 Aceitam vale-refeição?,pagamento,llm
 
 
+# PRODUTOS -> 0 Hum / 50 IA
+"Por gentileza, quais produtos estão disponíveis no Mercado Escola?",produtos,llm
+Você poderia me informar que tipos de produtos posso encontrar por lá?,produtos,llm
+Gostaria de saber quais itens estão sendo oferecidos no Mercado Escola atualmente.,produtos,llm
+Quais opções de produtos vocês têm disponíveis para os visitantes?,produtos,llm
+Poderia me dizer se há alimentos à venda no Mercado Escola?,produtos,llm
+"Que variedades de produtos posso encontrar na feira, por favor?",produtos,llm
+Vocês poderiam informar quais produtos estão disponíveis para compra?,produtos,llm
+Há diferentes tipos de itens à venda no Mercado Escola?,produtos,llm
+"Por favor, quais categorias de produtos são oferecidas no Mercado Escola?",produtos,llm
+Você pode me contar que produtos estão disponíveis para quem visita o Mercado Escola?,produtos,llm
+Quais produtos tem no Mercado Escola?,produtos,llm
+O que costuma ter à venda por aí?,produtos,llm
+Tem alimentos disponíveis?,produtos,llm
+Queria saber quais itens vcs oferecem.,produtos,llm
+Que produtos posso encontrar na feira?,produtos,llm
+Tem alguma opção de produto artesanal?,produtos,llm
+Quais são as coisas que dá pra comprar no Mercado Escola?,produtos,llm
+Vcs vendem produtos frescos?,produtos,llm
+O que tá disponível pra levar hoje?,produtos,llm
+Me conta quais produtos estão à venda 🙂,produtos,llm
+Quais produtos costumam ter no Mercado Escola?,produtos,llm
+"Oi, queria saber que tipo de coisa vende na feira do Mercado Escola",produtos,llm
+Tem frutas e verduras disponiveis por aí?,produtos,llm
+O que dá pra encontrar à venda no Mercado Escola?,produtos,llm
+Quais são os itens que vocês oferecem?,produtos,llm
+Vcs vendem só alimentos ou também tem outros produtos?,produtos,llm
+"Queria ver a lista de produtos, onde posso consultar?",produtos,llm
+Que produtos tem pra comprar nessa feira?,produtos,llm
+No Mercado Escola encontro produtos artesanais também?,produtos,llm
+Pode me dizer quais itens estão disponiveis hoje?,produtos,llm
+Estou montando uma cesta com coisas para levar para casa depois da aula; que tipos de produtos encontro no Mercado Escola?,produtos,llm
+"Minha irmã pediu para eu trazer algo produzido por lá, mas não sei o que costuma estar à venda. Quais produtos vocês oferecem?",produtos,llm
+Queria aproveitar o intervalo para comprar ingredientes para o jantar. Que produtos estão disponíveis no Mercado Escola?,produtos,llm
+Estou procurando opções de alimentos frescos para variar minhas refeições durante a semana. O que costuma ter por lá?,produtos,llm
+Nunca visitei o Mercado Escola e queria conhecer a variedade de produtos antes de ir. O que vocês vendem?,produtos,llm
+Preciso de frutas e outros itens para preparar um lanche para o pessoal do meu grupo. Quais produtos posso encontrar na feira?,produtos,llm
+"Minha família gosta de experimentar alimentos diferentes, então queria saber que tipos de produtos são oferecidos no Mercado Escola.",produtos,llm
+Estou organizando um almoço e queria comprar alguns ingredientes direto na feira. Que produtos vocês têm disponíveis?,produtos,llm
+Passo pelo campus depois do trabalho e queria levar algo para comer em casa. Que tipos de produtos costumam vender?,produtos,llm
+Estou tentando incluir mais alimentos frescos na rotina e queria conhecer as opções disponíveis no Mercado Escola. O que posso encontrar por lá?,produtos,llm
+Quais produtos têm?,produtos,llm
+Tem verduras?,produtos,llm
+O que vocês vendem?,produtos,llm
+Há frutas?,produtos,llm
+Quais alimentos oferecem?,produtos,llm
+Vende artesanato?,produtos,llm
+Tem produtos veganos?,produtos,llm
+Que itens encontro?,produtos,llm
+Há mel à venda?,produtos,llm
+Quais opções de produtos?,produtos,llm
+
+
+# CHITCHAT -> 44 Hum
 Boa tarde!,chitchat,humano
 Bom dia,chitchat,humano
 Boa noite,chitchat,humano
@@ -216,7 +274,7 @@ tabom, chitchat, humano
 ta, chitchat, humano
 
 
-
+# FORA_DOMINIO -> 44 Hum
 Vai chover hoje?,fora_dominio,humano
 tem tempestade quinta?,fora_dominio,humano
 quem vai ganhar o brasileirão?,fora_dominio,humano
@@ -237,7 +295,6 @@ O cois consegue ter pedra no rin?,fora_dominio,humano
 Quanto custa comprar uma casa na china?,fora_dominio,humano
 Valor da moeda chinesa?,fora_dominio,humano
 como resolver uma torneira frouxa?,fora_dominio,humano
-
 Ta chovendo aí?,fora_dominio,humano
 Toda um samba pra mim,fora_dominio,humano
 Voce foi programado em C?,fora_dominio,humano
@@ -248,7 +305,6 @@ Qual é a fórmula do pitágoras la?,fora_dominio,humano
 "Ola, como renovo o empréstimo do liro na biblioteca?",fora_dominio,humano
 Tem opção vegetariana hoje?,fora_dominio,humano
 Qual o cardápio de hoje?,fora_dominio,humano
-
 Que horas começa a aula?,fora_dominio,humano
 Que horas acaba a aula,fora_dominio,humano
 que dia tem frango no ru?,fora_dominio,humano
@@ -259,7 +315,6 @@ onde fica a feira do bosque da paz?,fora_dominio,humano
 A feira do bosque da paz funciona sexta?,fora_dominio,humano
 No terminal aceitam boleto?,fora_dominio,humano
 O terminal abre as 8 amanhã?,fora_dominio,humano
-
 qual cardapio do r.u hoje?, fora_dominio, humano
 que horas o ru abre?, fora_dominio, humano
 quanto custa comer no ru?, fora_dominio, humano
