@@ -300,6 +300,61 @@ Quais são os produtores?,produtores,llm
 
 
 
+# OBJETIVO -> 0 HUM / 50 IA
+
+"Por gentileza, qual é o principal objetivo do Mercado Escola?",objetivo,llm
+Poderia me explicar com que finalidade a feira Mercado Escola foi criada?,objetivo,llm
+Gostaria de entender qual propósito o Mercado Escola busca cumprir.,objetivo,llm
+Qual é a proposta central do Mercado Escola para a comunidade escolar?,objetivo,llm
+Você poderia contar que objetivo orienta a realização dessa feira?,objetivo,llm
+Para que serve o Mercado Escola dentro da comunidade acadêmica?,objetivo,llm
+Poderia esclarecer qual é a missão do Mercado Escola?,objetivo,llm
+Que finalidade educativa ou comunitária o Mercado Escola pretende alcançar?,objetivo,llm
+"Com licença, qual é a razão de ser da feira Mercado Escola?",objetivo,llm
+O que a organização espera promover com a realização do Mercado Escola?,objetivo,llm
+Pra que existe o Mercado Escola?,objetivo,llm
+Qual é a ideia por trás dessa feira?,objetivo,llm
+O que o Mercado Escola pretende promover?,objetivo,llm
+"Queria entender o objetivo da feira, qual é?",objetivo,llm
+A feira tem alguma finalidade educativa?,objetivo,llm
+Qual o propósito do Mercado Escola pra comunidade?,objetivo,llm
+O que motivou a criação dessa iniciativa?,objetivo,llm
+Essa feira busca aproximar a universidade de quem?,objetivo,llm
+Me explica rapidinho qual é a proposta do Mercado Escola?,objetivo,llm
+"Afinal, qual é o foco principal da feira?",objetivo,llm
+Qual é o objetivo principal da feira do Mercado Escola?,objetivo,llm
+Pra que foi criada essa feira do Mercado Escola?,objetivo,llm
+Queria entender melhor: qual a proposta da feira?,objetivo,llm
+A feira tem como foco aproximar a comunidade da universidade?,objetivo,llm
+O que o Mercado Escola busca promover com essa feira?,objetivo,llm
+"Qual é a finalidade desse evento, afinal?",objetivo,llm
+Essa feira serve pra divulgar o trabalho feito no Mercado Escola?,objetivo,llm
+Pode me explicar qual é a ideia por trás da feira do Mercado Escola,objetivo,llm
+Que objetivo a feira pretende alcançar junto aos estudantes?,objetivo,llm
+"Fiquei na dúvida sobre a proposta da feira, qual é mesmo?",objetivo,llm
+Estou fazendo um trabalho sobre iniciativas da universidade e queria entender qual é o objetivo do Mercado Escola.,objetivo,llm
+"Vi a divulgação da feira no campus, mas não ficou claro para mim: para que ela foi criada?",objetivo,llm
+Minha turma está pesquisando projetos ligados à comunidade. Qual é a finalidade do Mercado Escola nesse contexto?,objetivo,llm
+Passei pela feira durante uma visita à universidade e fiquei curioso sobre a proposta principal dela.,objetivo,llm
+Preciso explicar o Mercado Escola em uma apresentação. Como posso entender qual é o propósito da feira?,objetivo,llm
+Estou conhecendo as ações da instituição e gostaria de saber que objetivo o Mercado Escola busca alcançar.,objetivo,llm
+"No meu curso, estamos conversando sobre projetos universitários. Qual é a razão de existir do Mercado Escola?",objetivo,llm
+"Minha família perguntou por que a universidade organiza essa feira, e eu queria esclarecer qual é a intenção do Mercado Escola.",objetivo,llm
+Estou preparando uma atividade sobre a relação entre universidade e comunidade. Qual é o objetivo do Mercado Escola?,objetivo,llm
+Conheci o Mercado Escola por uma publicação nas redes sociais e queria entender a finalidade dessa iniciativa.,objetivo,llm
+Objetivo da feira?,objetivo,llm
+Finalidade da feira?,objetivo,llm
+Propósito da feira?,objetivo,llm
+Missão da feira?,objetivo,llm
+Proposta da feira?,objetivo,llm
+Pra que essa feira?,objetivo,llm
+Feira serve pra quê?,objetivo,llm
+Meta do Mercado Escola?,objetivo,llm
+Objetivo do Mercado Escola?,objetivo,llm
+A feira busca quê?,objetivo,llm
+
+
+
 # CHITCHAT -> 44 Hum
 Boa tarde!,chitchat,humano
 Bom dia,chitchat,humano
