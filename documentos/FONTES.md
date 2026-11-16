@@ -13,3 +13,5 @@ forneceu, ou "escrito pelo grupo com base em ...").
 | edital_comercialização_n_390_13-07-2026.pdf | https://boletimoficial.ufms.br/publicacao?id=603142 13/11                                                                 |
 | produtos.md                                 | escrito pelo grupo com base em pesquisas com os produtores da feira                                                       |
 | produtores.md                               | escrito pelo grupo com base em pesquisas com os produtores da feira                                                       |
+| geleias.md                                  | https://www.instagram.com/decolheremcolher_cg 13/11                                                                       |
+| saboaria.md                                 | https://www.instagram.com/botanica_saboariaartesanal 13/11                                                                |
