@@ -61,7 +61,7 @@ Até que horas?,horario,llm
 
 
 
-# LOCALIZACAO -> 12 Hum / 37 IA
+# LOCALIZACAO -> 12 Hum / 38 IA
 Onde é a feira do Mercado Escola?,localizacao,humano
 É perto da onde?,localizacao,humano
 A feira acontece dentro da ufms?,localizacao,humano
@@ -238,14 +238,15 @@ Quais opções de produtos?,produtos,llm
 
 
 
-# PRODUTORES -> 0 HUM / 50 IA
+# PRODUTORES -> 6 HUM / 50 IA
 cm posso vender?, produtores, humano
 como posso vender?, produtores, humano
 posso ser feirante?, produtores, humano
 como começar a vender, produtores, humano
 o que precisa para vender?, produtores, humano
 oq precisa pr vender?, produtores, humano
-
+quero vender tambem, produtores, humano
+os produtores são certificados?, produtores, humano
 
 "Por gentileza, quem são os produtores que participam do Mercado Escola?",produtores,llm
 Você poderia me informar quais produtores fazem parte da feira?,produtores,llm
@@ -382,7 +383,6 @@ blzz, chitchat, humano
 vlw, chitchat, humano
 vlww, chitchat, humano
 tmj, chitchat, humano
-obg, chitchat, humano
 obgdd, chitchat, humano
 bgd, chitchat, humano
 valeuu, chitchat, humano
@@ -403,7 +403,7 @@ tabom, chitchat, humano
 ta, chitchat, humano
 
 
-# FORA_DOMINIO -> 44 Hum
+# FORA_DOMINIO -> 45 Hum
 Vai chover hoje?,fora_dominio,humano
 tem tempestade quinta?,fora_dominio,humano
 quem vai ganhar o brasileirão?,fora_dominio,humano

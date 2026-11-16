@@ -9,7 +9,7 @@ forneceu, ou "escrito pelo grupo com base em ...").
 | contatos.md                                 | escrito pelo grupo com base no rodapé do documento de manual de conduta                                                   |
 | horario.md                                  | https://www.instagram.com/mercadoescolaufms 06/11                                                                         |
 | localizacao.md                              | escrito pelo grupo com base no rodapé de documento e também ponto no google: https://share.google/te7lm47RRQHvpzyvY 06/11 |
-| pagamento.md                                | escrito pelo grupo com base em pesquisas locais                                                                           |
+| pagamento.md                                | escrito pelo grupo com base em pesquisas com os produtores da feira                                                       |
 | edital_comercialização_n_390_13-07-2026.pdf | https://boletimoficial.ufms.br/publicacao?id=603142 13/11                                                                 |
-| produtos.md                                 | escrito pelo grupo com base em pesquisas locais                                                                           |
-| produtores.md                               | escrito pelo grupo com base em pesquisas locais                                                                           |
+| produtos.md                                 | escrito pelo grupo com base em pesquisas com os produtores da feira                                                       |
+| produtores.md                               | escrito pelo grupo com base em pesquisas com os produtores da feira                                                       |
