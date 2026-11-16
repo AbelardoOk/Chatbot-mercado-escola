@@ -173,7 +173,18 @@ Parcelam no cartão?,pagamento,llm
 Aceitam vale-refeição?,pagamento,llm
 
 
-# PRODUTOS -> 0 Hum / 50 IA
+# PRODUTOS -> 10 Hum / 50 IA
+tem geleia?, produtos, humano
+quero geleia, produtos, humano
+qual sabor de geleia vocês tem, produtos, humano
+tem artesanato?, produtos, humano
+tem alguma coisa para dar de presente?, produtos, humano
+quero presentear alguem, produtos, humano
+quero doces, produtos, humano
+doce?, produtos, humano
+o que tem aí pra filar boia? produtos, humano
+o que tem de diferente na feira? produtos, humano
+
 "Por gentileza, quais produtos estão disponíveis no Mercado Escola?",produtos,llm
 Você poderia me informar que tipos de produtos posso encontrar por lá?,produtos,llm
 Gostaria de saber quais itens estão sendo oferecidos no Mercado Escola atualmente.,produtos,llm
@@ -224,6 +235,69 @@ Tem produtos veganos?,produtos,llm
 Que itens encontro?,produtos,llm
 Há mel à venda?,produtos,llm
 Quais opções de produtos?,produtos,llm
+
+
+
+# PRODUTORES -> 0 HUM / 50 IA
+cm posso vender?, produtores, humano
+como posso vender?, produtores, humano
+posso ser feirante?, produtores, humano
+como começar a vender, produtores, humano
+o que precisa para vender?, produtores, humano
+oq precisa pr vender?, produtores, humano
+
+
+"Por gentileza, quem são os produtores que participam do Mercado Escola?",produtores,llm
+Você poderia me informar quais produtores fazem parte da feira?,produtores,llm
+Gostaria de saber se há uma lista dos produtores participantes do Mercado Escola.,produtores,llm
+Poderia me contar um pouco sobre os produtores que participam dessa iniciativa?,produtores,llm
+Como posso conhecer os produtores que estarão envolvidos no Mercado Escola?,produtores,llm
+"Os produtores participantes são estudantes, agricultores ou pessoas da comunidade?",produtores,llm
+Você poderia me dizer de quais comunidades vêm os produtores que participam da feira?,produtores,llm
+Há algum perfil ou apresentação dos produtores participantes que eu possa consultar?,produtores,llm
+Quem são as pessoas responsáveis pela produção que participam do Mercado Escola?,produtores,llm
+"Por favor, poderia me explicar como os produtores participantes são identificados na feira?",produtores,llm
+Quem são os produtores que participam do Mercado Escola?,produtores,llm
+Quais agricultores fazem parte da feira?,produtores,llm
+Tem como conhecer quem são os produtores participantes?,produtores,llm
+Os feirantes são produtores da região?,produtores,llm
+Quem participa como produtor no Mercado Escola?,produtores,llm
+Queria saber quais produtores estão envolvidos na feira.,produtores,llm
+Os produtores que participam são estudantes também?,produtores,llm
+Como faço pra saber quem são os agricultores participantes?,produtores,llm
+Tem uma lista dos produtores que fazem parte do Mercado Escola?,produtores,llm
+Quem são as pessoas produtoras que participam por lá?,produtores,llm
+Quais produtores participam do Mercado Escola?,produtores,llm
+Tem uma lista dos produtores que estão na feira?,produtores,llm
+Quem são os agricultores participantes dessa edição?,produtores,llm
+Os produtores que participam são daqui da região?,produtores,llm
+"Queria saber quais produtores fazem parte do Mercado Escola, tem como?",produtores,llm
+Como posso reconhecer os produtores participantes?,produtores,llm
+Quem são os feirantes que costumam participar do Mercado Escola?,produtores,llm
+Os produtores participantes mudam de uma edição pra outra?,produtores,llm
+Tem algum cadastro ou perfil dos produtores que participam?,produtores,llm
+Sabe me dizer quais agricultores estão participando desta vez?,produtores,llm
+Estou fazendo um trabalho sobre o Mercado Escola e queria saber quem pode participar como produtor.,produtores,llm
+Minha turma está pesquisando os participantes da feira; vocês conseguem explicar como alguém se torna produtor por lá?,produtores,llm
+Tenho uma pequena produção artesanal e queria entender se posso me inscrever como produtora no Mercado Escola.,produtores,llm
+Sou estudante e fiquei curioso para saber se os produtores participantes são alunos da instituição ou se também há gente de fora.,produtores,llm
+Minha mãe produz alimentos em casa e está pensando em participar. Como ela pode descobrir os requisitos para ser produtora?,produtores,llm
+Estou montando uma apresentação sobre os feirantes do Mercado Escola. Existe alguma informação sobre quem são os produtores participantes?,produtores,llm
+Participo de um projeto de agricultura na faculdade e queria saber se o grupo pode se candidatar para atuar como produtor na feira.,produtores,llm
+Conheci o Mercado Escola numa visita com a escola e fiquei com vontade de saber como funciona a participação dos produtores.,produtores,llm
+Já vendo peças feitas à mão em eventos do bairro e gostaria de saber se há um processo para entrar como produtora participante.,produtores,llm
+Estou ajudando um colega que quer expor o que produz no Mercado Escola; onde ele pode consultar as orientações para participar?,produtores,llm
+Quem são os produtores?,produtores,llm
+Produtores participantes?,produtores,llm
+Quais produtores participam?,produtores,llm
+Quem participa como produtor?,produtores,llm
+Conhecer os produtores,produtores,llm
+Lista de produtores,produtores,llm
+Quem produz na feira?,produtores,llm
+Agricultores participantes?,produtores,llm
+Tem produtor cadastrado?,produtores,llm
+Quais são os produtores?,produtores,llm
+
 
 
 # CHITCHAT -> 44 Hum
