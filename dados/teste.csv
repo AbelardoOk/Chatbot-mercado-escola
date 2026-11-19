@@ -1,1 +1,139 @@
 texto,intencao,origem
+
+
+"Bom dia, que horas abre a feira?",horario,humano
+A feira ta aberta às 17?,horario,humano
+O mercado escola ta aberta às 12?,horario,humano
+Na segunda fecha que horas?,horario,humano
+Tudo bem chefe? que horas começa a feira?,horario,humano
+Qual o horário de pico da feira?,horario,humano
+
+Pronde que fica a feira, localizacao,humano
+A feira é dentro da universidade?,localizacao,humano
+É perto do estádio a feira?,localizacao,humano
+Tudo bem amigo? Onde que fica essa feira da ufms,localizacao,humano
+"Boa noite, a feira do mercado escola é dentro ou fora da universidade federal, nao entendi isso",localizacao,humano
+"Obrigado zé, pra chegar na feira é por onde mesmo?",localizacao,humano
+Quero chegar mo mercado escola,localizacao,humano
+
+Todo mundo aceita pix?,pagamento,humano
+Boa tarde voces aceitam boleto?,pagamento,humano
+"Oi, posso pagar no pix?",pagamento,humano
+minha mae perguntou se da pra paghar com dinheiro,pagamento,humano
+"Ola meu senhor, eu gostaria de saber se há a possibilidade de utilizar bitcoin como pagamento em seu belo espaço de feira.",pagamento,humano
+Oi da pra pagar com bitcoin?,pagamento,humano
+"Voces aceitam cheque, ss ou n?",pagamento,humano
+
+Ola, tem geleia na feira?,produtos,humano
+tem hortalicas frescas?,produtos,humano
+Tem geleia de mocoto pra vender?,produtos,humano
+Oque vende aí?,produtos,humano
+
+Como faz pra ser feirante ai?,produtores,humano
+É seguro comprar com qualquer vendedor?,produtores,humano
+"Eu vendo velas em outras feiras da cidade, como faço para vender nessa?",produtores,humano
+Qualquer um pode vender na feira?,produtores,humano
+
+Porque existe a feira da UF?,objetivos,humano
+A feira da UF é pra todos ou so pra alunos e funcionários?,objetivos,humano
+
+
+
+
+
+Eai,chitchat,humano
+Tudo certo zé?,chitchat,humano
+Tudo bem?,chitchat,humano
+Muitíssimo obrigado,chitchat,humano
+Obrigada,chitchat,humano
+Ola tudo bem?,chitchat,humano
+Como esta?,chitchat,humano
+valeu demais!,chitchat,humano
+como esta o tempo?,chitchat,humano
+lembrado,chitchat,humano
+certo vou fazer isso,chitchat,humano
+ta certo entao,chitchat,humano
+olazinho,chitchat,humano
+olazao,chitchat,humano
+oi pode me ajudar?,chitchat,humano
+preciso de ajuda,chitchat,humano
+mim ajude,chitchat,humano
+pelo amor de deus,chitchat,humano
+salve,chitchat,humano
+valeu,chitchat,humano
+
+obrigado pela ajuda,chitchat,humano
+grato,chitchat,humano
+ola preciso de ajuda,chitchat,humano
+entao tabomm,chitchat,humano
+vlw amigo,chitchat,humano
+vlw ze,chitchat,humano
+blz ze,chitchat,humano
+blz amigo,chitchat,humano
+tmj meu brother,chitchat,humano
+gratidao eterna,chitchat,humano
+gratidao a voce,chitchat,humano
+so tenho a agradecer pela ajuda,chitchat,humano
+aqui me despeço,chitchat,humano
+obrigado vou pra feira entao,chitchat,humano
+entao vamos fazer assim mesmo,chitchat,humano
+isso mesmo!!,chitchat,humano
+"que delicia, mal posso esperar",chitchat,humano
+muito beleza,chitchat,humano
+tudo claro e entendido,chitchat,humano
+six seven six seven six seven,chitchat,humano
+
+
+
+
+
+Hoje chove em cg?,fora_dominio,humano
+Quanto custa uma passagem pra aquidauana,fora_dominio,humano
+Quanto custa uma passagem de avião pra brasília?,fora_dominio,humano
+toca um legiao urbana ai,fora_dominio,humano
+fora lula,fora_dominio,humano
+fora bolsonaro,fora_dominio,humano
+michael jackson ta vivo?,fora_dominio,humano
+tem lampada colorida na sertao?,fora_dominio,humano
+quando é a back friday?,fora_dominio,humano
+quando vai ser o natal esse ano?,fora_dominio,humano
+"Ola senhor, pode me dizer quanto ta a passagem de onibus? ",fora_dominio,humano
+Quanto custa um gol g3?,fora_dominio,humano
+Quanto custa o gta 6?,fora_dominio,humano
+Sabe me dizer pq o gta 6 é goty?,fora_dominio,humano
+Como faz para nao pedir queijo pro amigo,fora_dominio,humano
+Homem aranha ou batman?,fora_dominio,humano
+Qual a melhor musica do mamonas assassinas?,fora_dominio,humano
+Quanto custa um charuto colombiano?,fora_dominio,humano
+Quando custa um camelo?,fora_dominio,humano
+
+Que horas abre o ru na UF?,fora_dominio,humano
+"Onde fica o integra, do lado do mercado escola?",fora_dominio,humano
+Onde fica a feira do panama?,fora_dominio,humano
+Que horas abre o mercado seu joao?,fora_dominio,humano
+Consigo pagar com crédito na casas bahia?,fora_dominio,humano
+Aceitam cheque no super mercado escola da UFV?,fora_dominio,humano
+Qual o valor um pastel na padaria?,fora_dominio,humano
+Como faz pra ser feirante na cidade?,fora_dominio,humano
+Qualquer um pode ser vendedor na rua?,fora_dominio,humano
+Posso pagar com bitcoin no spp?,fora_dominio,humano
+Onde fica a feira do bosque da paz CG MS?,fora_dominio,humano
+Onde fica a universidade federal do MS?,fora_dominio,humano
+Quanto custa uma geleia no mercadao?,fora_dominio,humano
+Que horas abre o shopping campo grande?,fora_dominio,humano
+Que horas vai fechar o shopping campo grande?,fora_dominio,humano
+Que horas fecha o spp?,fora_dominio,humano
+Quanto custa um ssd?,fora_dominio,humano
+Oque vende na padaria?,fora_dominio,humano
+tem geleia de mocoto na padaria?,fora_dominio,humano
+Qual horario de pico do terminal morenao?,fora_dominio,humano
+Onde posso comprar um motor de caminhão?,fora_dominio,humano
+"Eu sou vendedor, posso abrir minha loja na UFMS?",fora_dominio,humano
+A biblioteca da uf é para todos ou so para alunos e funcionarios?,fora_dominio,humano
+Qualquer um pode comprar no ru?,fora_dominio,humano
+Qualquer um pode pode vender no ru?,fora_dominio,humano
+Quanto custa um pastel no ru?,fora_dominio,humano
+Posso pagar no pix no ru?,fora_dominio,humano
+Posso comprar um livro na biblioteca,fora_dominio,humano
+Onde vende geleia na ucdb?,fora_dominio,humano
+Onde fica a feira da ucdb?,fora_dominio,humano
