@@ -17,6 +17,7 @@ from __future__ import annotations
 import numpy as np
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 
 from .texto import normalizar
 
@@ -43,6 +44,40 @@ def tfidf_caracteres(ngram_range=(2, 5), min_df=1, sublinear_tf=True, **kwargs) 
         sublinear_tf=sublinear_tf,
         **kwargs,
     )
+
+def bow(ngram_range=(1, 1), min_df=1, **kwargs) -> CountVectorizer:
+    """Bag of Words: frequência absoluta das palavras."""
+    return CountVectorizer(
+        preprocessor=normalizar,
+        analyzer="word",
+        ngram_range=ngram_range,
+        min_df=min_df,
+        **kwargs,
+    )
+
+def tfidf_sem_stopwords(ngram_range=(1, 2), min_df=1, **kwargs) -> TfidfVectorizer:
+    """TF-IDF com remoção de stopwords em português."""
+    return TfidfVectorizer(
+        preprocessor=normalizar,
+        analyzer="word",
+        ngram_range=ngram_range,
+        min_df=min_df,
+        sublinear_tf=True,
+        stop_words="portuguese",
+        **kwargs,
+    )
+
+def tfidf_bigramas(min_df=1, **kwargs) -> TfidfVectorizer:
+    """TF-IDF considerando somente pares consecutivos de palavras."""
+    return TfidfVectorizer(
+        preprocessor=normalizar,
+        analyzer="word",
+        ngram_range=(2, 2),
+        min_df=min_df,
+        sublinear_tf=True,
+        **kwargs,
+    )
+
 
 
 class EmbeddingsSentenca(BaseEstimator, TransformerMixin):
