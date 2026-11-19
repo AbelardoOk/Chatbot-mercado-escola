@@ -919,3 +919,151 @@ Retorne exclusivamente um objeto JSON válido neste formato:
 {"frases": ["mensagem 1", "mensagem 2"]}
 Não use Markdown nem texto fora do JSON.
 ~~~
+
+## 19/11/2026 19:10 Horário padrão - Pacífico — modelo openai/gpt-6-luna
+
+- Formato: JSON estruturado (json_object)
+- Candidatas: 30; aceitas: 29
+- Duplicatas/quase duplicatas removidas: 1
+- Conflitos exatos entre rótulos removidos: 0
+- Limiar de similaridade: 0.94
+
+### chitchat — perguntas completas e educadas
+
+- Retornadas: 6; utilizadas: 6; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: chitchat.
+Significado do rótulo: conversa social: cumprimentos, agradecimentos, despedidas, confirmações, elogios, risadas e perguntas sobre o próprio chatbot; sem pedidos de informação.
+Estilo desta rodada: perguntas completas e educadas.
+Quantidade exata: 6 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 6 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### chitchat — mensagens curtas e informais, com abreviações naturais
+
+- Retornadas: 6; utilizadas: 6; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: chitchat.
+Significado do rótulo: conversa social: cumprimentos, agradecimentos, despedidas, confirmações, elogios, risadas e perguntas sobre o próprio chatbot; sem pedidos de informação.
+Estilo desta rodada: mensagens curtas e informais, com abreviações naturais.
+Quantidade exata: 6 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 6 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### chitchat — mensagens com erros leves de digitação, acentuação ou pontuação
+
+- Retornadas: 6; utilizadas: 6; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: chitchat.
+Significado do rótulo: conversa social: cumprimentos, agradecimentos, despedidas, confirmações, elogios, risadas e perguntas sobre o próprio chatbot; sem pedidos de informação.
+Estilo desta rodada: mensagens com erros leves de digitação, acentuação ou pontuação.
+Quantidade exata: 6 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 6 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### chitchat — mensagens contextualizadas, como alguém explicando sua situação
+
+- Retornadas: 6; utilizadas: 6; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: chitchat.
+Significado do rótulo: conversa social: cumprimentos, agradecimentos, despedidas, confirmações, elogios, risadas e perguntas sobre o próprio chatbot; sem pedidos de informação.
+Estilo desta rodada: mensagens contextualizadas, como alguém explicando sua situação.
+Quantidade exata: 6 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 6 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### chitchat — mensagens muito curtas, de 1 a 4 palavras
+
+- Retornadas: 6; utilizadas: 6; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: chitchat.
+Significado do rótulo: conversa social: cumprimentos, agradecimentos, despedidas, confirmações, elogios, risadas e perguntas sobre o próprio chatbot; sem pedidos de informação.
+Estilo desta rodada: mensagens muito curtas, de 1 a 4 palavras.
+Quantidade exata: 6 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 6 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
