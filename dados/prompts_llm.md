@@ -1067,3 +1067,299 @@ Retorne exclusivamente um objeto JSON válido neste formato:
 {"frases": ["mensagem 1", "mensagem 2"]}
 Não use Markdown nem texto fora do JSON.
 ~~~
+
+## 19/11/2026 19:15 Horário padrão - Pacífico — modelo openai/gpt-6-luna
+
+- Formato: JSON estruturado (json_object)
+- Candidatas: 70; aceitas: 70
+- Duplicatas/quase duplicatas removidas: 0
+- Conflitos exatos entre rótulos removidos: 0
+- Limiar de similaridade: 0.94
+
+### fora_dominio — perguntas completas e educadas
+
+- Retornadas: 14; utilizadas: 14; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: perguntas completas e educadas.
+Quantidade exata: 14 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 14 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens curtas e informais, com abreviações naturais
+
+- Retornadas: 14; utilizadas: 14; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens curtas e informais, com abreviações naturais.
+Quantidade exata: 14 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 14 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens com erros leves de digitação, acentuação ou pontuação
+
+- Retornadas: 14; utilizadas: 14; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens com erros leves de digitação, acentuação ou pontuação.
+Quantidade exata: 14 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 14 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens contextualizadas, como alguém explicando sua situação
+
+- Retornadas: 14; utilizadas: 14; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens contextualizadas, como alguém explicando sua situação.
+Quantidade exata: 14 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 14 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens muito curtas, de 1 a 4 palavras
+
+- Retornadas: 14; utilizadas: 14; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens muito curtas, de 1 a 4 palavras.
+Quantidade exata: 14 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 14 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+## 19/11/2026 19:20 Horário padrão - Pacífico — modelo openai/gpt-6-luna
+
+- Formato: JSON estruturado (json_object)
+- Candidatas: 80; aceitas: 80
+- Duplicatas/quase duplicatas removidas: 0
+- Conflitos exatos entre rótulos removidos: 0
+- Limiar de similaridade: 0.94
+
+### fora_dominio — perguntas completas e educadas
+
+- Retornadas: 16; utilizadas: 16; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: perguntas completas e educadas.
+Quantidade exata: 16 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 16 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens curtas e informais, com abreviações naturais
+
+- Retornadas: 16; utilizadas: 16; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens curtas e informais, com abreviações naturais.
+Quantidade exata: 16 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 16 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens com erros leves de digitação, acentuação ou pontuação
+
+- Retornadas: 16; utilizadas: 16; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens com erros leves de digitação, acentuação ou pontuação.
+Quantidade exata: 16 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 16 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens contextualizadas, como alguém explicando sua situação
+
+- Retornadas: 16; utilizadas: 16; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens contextualizadas, como alguém explicando sua situação.
+Quantidade exata: 16 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 16 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
+
+### fora_dominio — mensagens muito curtas, de 1 a 4 palavras
+
+- Retornadas: 16; utilizadas: 16; tentativas: 1
+
+~~~text
+Gere dados sintéticos para treinar um classificador de intenções de um chatbot brasileiro.
+
+O chatbot atende exclusivamente dúvidas sobre: Chatbot de dúvidas sobre o mercado escola.
+Rótulo que deve ser gerado: fora_dominio.
+Significado do rótulo: assuntos que o chatbot NÃO atende. O chatbot atende somente Chatbot de dúvidas sobre o mercado escola (horário de funcionamento, localização da feira, produtos disponíveis, produtores participantes, formas de pagamento e objetivo da feira). Inclua negativos difíceis sobre outros serviços universitários e temas cotidianos, mas nunca dúvidas sobre o Mercado Escola.
+Estilo desta rodada: mensagens muito curtas, de 1 a 4 palavras.
+Quantidade exata: 16 frases.
+
+REGRAS:
+- Escreva em português brasileiro natural, como mensagens reais de estudantes e visitantes.
+- Varie estrutura, vocabulário, tamanho e forma de perguntar.
+- Não gere apenas substituições de sinônimos nem frases quase idênticas.
+- Cada frase deve pertencer inequivocamente ao rótulo solicitado.
+- Para fora_dominio, inclua assuntos vizinhos à vida universitária e assuntos cotidianos.
+- Não invente informações ou respostas sobre o Mercado Escola.
+- Não inclua explicações, respostas, rótulos, numeração ou dados pessoais.
+- Gere exatamente 16 frases distintas.
+
+Retorne exclusivamente um objeto JSON válido neste formato:
+{"frases": ["mensagem 1", "mensagem 2"]}
+Não use Markdown nem texto fora do JSON.
+~~~
