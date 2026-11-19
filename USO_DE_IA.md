@@ -24,7 +24,7 @@
 | --- | ----------------- | ------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------- |
 | 1   | _Dados de treino_ | _Gerou 100 frases para 2 intenções (50 cada)_     | _ver `dados/prompts_llm.md`_                               | Os exemplos gerados são destinados ao treino após revisão.       |
 | 2 | Dados de treino | Revisou 98 frases de horário e localização segundo o Passo 6 do enunciado. Conferiu naturalidade, repetições e rótulos. | Pedido no Codex para ler cada frase de dados/gerados_llm.csv e sugerir correções com base no PDF do trabalho. | Após autorização de Giovana, foram mantidas 76 frases como estavam, 4 foram reescritas e 18 foram retiradas por repetição. As mesmas alterações foram aplicadas aos exemplos correspondentes em dados/treino.csv. |
-| 3 | Dados de treino | Giovana usou Codex para validar 150 frases novas e 50 frases de pagamento pendentes, segundo o Passo 6 do enunciado. | “Valide as novas frases geradas, use minha identificação e mantenha os textos, registrando o parecer no meu registro de revisão.” | Parecer registrado por solicitação de Giovana: 162 aprovadas sem ressalvas, 26 com observação de diversidade e 12 a revisar. Detalhamento na seção 5. |
+| 3 | Dados de treino | Giovana usou Codex para revisar 150 frases novas e 50 de pagamento pendentes, segundo o Passo 6 do enunciado. | “Valide as frases geradas e aplique no CSV as correções e os descartes, como na revisão anterior e no tutorial do professor.” | Validação aplicada em dados/gerados_llm.csv e nas frases correspondentes de dados/treino.csv: 170 mantidas como estavam, 4 corrigidas e 26 descartadas por formulações repetitivas. Detalhamento na seção 5. |
 | 0   | _Chatbot_         | _Redige as respostas das intenções e do chitchat_ | _prompts em `chatbot/llm.py` + persona do `grupo.yaml`_    | _Ajustamos a persona 3 vezes após testes (seção X do artigo)_ |
 | 0   | _Código_          | _Sugeriu a função que plota a curva de validação_ | _"como plotar o resultado do GridSearchCV em função de C"_ | _Adaptamos nomes e eixos; entendemos e testamos_              |
 | 0   | _Escrita_         | _Revisou a gramática da Introdução_               | _"revise a gramática sem mudar o conteúdo: ..."_           | _Aceitamos parte das sugestões_                               |
@@ -41,26 +41,35 @@ TODO: onde a IA ajudou, onde atrapalhou ou errou, e como vocês verificaram o qu
 
 ## 5. Parecer de validação de Giovana — 19/11/2026
 
-Revisão feita com Codex, identificado na seção 1 como modelo openai/gpt-6.1-sol. O parâmetro foi o Passo 6, página 17, do enunciado Trabalho IA.pdf, considerando clareza, naturalidade, intenção e repetição. Mensagens curtas, abreviações, acentuação informal e paráfrases são aceitáveis quando a intenção permanece clara.
+Validação aplicada por solicitação de Giovana nos arquivos dados/gerados_llm.csv e dados/treino.csv, seguindo o Passo 6, página 17, do enunciado Trabalho IA.pdf. Foram revisadas as 150 frases novas de produtos, produtores e objetivo e as 50 frases de pagamento pendentes da rodada anterior.
 
-As linhas abaixo se referem a dados/gerados_llm.csv no commit [97f0f97](https://github.com/AbelardoOk/Chatbot-mercado-escola/blob/97f0f97111e402228091bb42abc5464fb8da0607/dados/gerados_llm.csv), contando o cabeçalho como linha 1. Foram lidas as 150 frases novas de produtos, produtores e objetivo, mais as 50 de pagamento que estavam pendentes da revisão anterior.
+Das 200 frases revisadas, 170 foram mantidas como estavam, 4 foram corrigidas e 26 foram descartadas por formulações repetitivas. As alterações foram aplicadas às mesmas frases nos dois CSVs, mantendo origem llm. As linhas deste registro identificam a versão anterior à aplicação, no commit [97f0f97](https://github.com/AbelardoOk/Chatbot-mercado-escola/blob/97f0f97111e402228091bb42abc5464fb8da0607/dados/gerados_llm.csv), com cabeçalho na linha 1.
 
-Resultado da análise das 200 frases: 162 aprovadas sem ressalvas, 26 com observação de diversidade e 12 que precisam de ajuste ou definição do grupo. As 26 paráfrases apontadas são compreensíveis e têm rótulo adequado. A observação indica pouca informação nova em relação ao exemplo comparado. O grupo pode priorizar formulações mais variadas ao selecionar exemplos. Nenhuma frase é uma duplicata exata, inclusive após normalizar maiúsculas, acentos e pontuação.
+Este registro atualiza o parecer anterior com a aplicação da revisão nos dados. As perguntas sobre inscrição e participação foram aprovadas como produtores após conferir que o grupo já utiliza esse rótulo em seus exemplos humanos para cadastro, requisitos e ingresso na feira. A descrição geral do tema também inclui como participar. A configuração e os exemplos humanos foram preservados.
 
-Por decisão de Giovana, este parecer registra sugestões para conferência humana. Os textos e os rótulos existentes foram preservados nos CSVs. A aprovação de uma pergunta avalia seu uso na classificação de intenções. A base de conhecimento ainda pode precisar de informação para respondê-la.
+### Resultado por intenção
 
-### Cobertura por intenção
-
-| Intenção | Lidas | Aprovadas sem ressalvas | Observação de diversidade | Revisar | Linhas aprovadas sem ressalvas |
+| Intenção | Revisadas | Mantidas como estavam | Corrigidas | Descartadas | Aproveitadas |
 | --- | --- | --- | --- | --- | --- |
-| pagamento | 50 | 42 | 6 | 2 | 82–101, 103–104, 107, 111–126, 128, 130–131 |
-| produtos | 50 | 47 | 3 | 0 | 132–137, 139–145, 147–155, 157–181 |
-| produtores | 50 | 32 | 9 | 9 | 182–191, 193–199, 201, 204, 207–210, 215, 217, 222–224, 226–229 |
-| objetivo | 50 | 41 | 8 | 1 | 232–234, 236–251, 255, 257–258, 260, 262–277, 279, 281 |
+| pagamento | 50 | 42 | 2 | 6 | 44 |
+| produtos | 50 | 47 | 0 | 3 | 47 |
+| produtores | 50 | 40 | 1 | 9 | 41 |
+| objetivo | 50 | 41 | 1 | 8 | 42 |
 
-### Observações de diversidade
+### Correções aplicadas
 
-| Linha | Intenção | Frase analisada | Exemplo com formulação próxima |
+| Linha anterior | Intenção | Texto anterior | Texto corrigido | Motivo |
+| --- | --- | --- | --- | --- |
+| 108 | pagamento | O pagamento é feito na hora ou posso usar algum app? | Posso pagar minhas compras por algum aplicativo? | Tornar o pedido específico sobre o meio de pagamento. |
+| 110 | pagamento | Aceitam transferência bancária ou apenas pagamento presencial? | Aceitam transferência bancária como forma de pagamento? | Retirar a oposição entre transferência e pagamento presencial, que podem ocorrer juntos. |
+| 230 | produtores | Tem produtor cadastrado? | Há produtores participando da feira? | Explicitar a pergunta sobre a existência de produtores participantes. |
+| 235 | objetivo | Qual é a proposta central do Mercado Escola para a comunidade escolar? | Qual é a proposta central do Mercado Escola para a comunidade acadêmica? | Adequar a referência à comunidade ao contexto universitário do projeto. |
+
+### Descartes aplicados por formulação repetitiva
+
+Os exemplos abaixo foram retirados para reduzir a repetição de formulações nos lotes revisados. Cada descarte preserva outro exemplo da mesma intenção. Mensagens curtas e informais foram mantidas quando contribuem com variação.
+
+| Linha anterior | Intenção | Frase retirada | Exemplo preservado na versão de referência |
 | --- | --- | --- | --- |
 | 102 | pagamento | Quais formas de pagamento são aceitas no Mercado Escola? | Linha 82 — Por gentileza, quais formas de pagamento são aceitas no Mercado Escola? |
 | 105 | pagamento | Posso pagar com cartão de débito nas compras? | Linha 87 — Por favor, vocês aceitam cartão de débito nas compras? |
@@ -89,21 +98,4 @@ Por decisão de Giovana, este parecer registra sugestões para conferência huma
 | 278 | objetivo | Feira serve pra quê? | Linha 277 — Pra que essa feira? |
 | 280 | objetivo | Objetivo do Mercado Escola? | Linha 272 — Objetivo da feira? |
 
-### Frases que precisam de revisão
-
-| Linha | Intenção atual | Frase analisada | Parecer |
-| --- | --- | --- | --- |
-| 108 | pagamento | O pagamento é feito na hora ou posso usar algum app? | Mistura o momento do pagamento com o meio utilizado. Sugestão para tornar a pergunta específica: “Posso pagar minhas compras por algum aplicativo?”. Manter pagamento. |
-| 110 | pagamento | Aceitam transferência bancária ou apenas pagamento presencial? | Transferência e atendimento presencial podem ocorrer juntos. Sugestão: “Aceitam transferência bancária como forma de pagamento?”. Manter pagamento. |
-| 212 | produtores | Estou fazendo um trabalho sobre o Mercado Escola e queria saber quem pode participar como produtor. | Pergunta quem pode se candidatar. A descrição de produtores cobre os participantes atuais. Confirmar se o grupo inclui elegibilidade nessa intenção. |
-| 213 | produtores | Minha turma está pesquisando os participantes da feira; vocês conseguem explicar como alguém se torna produtor por lá? | Pergunta como se tornar produtor. Confirmar se o procedimento de ingresso pertence a produtores. |
-| 214 | produtores | Tenho uma pequena produção artesanal e queria entender se posso me inscrever como produtora no Mercado Escola. | Pergunta sobre inscrição como produtora. Confirmar a abrangência de produtores antes de aprovar o rótulo. |
-| 216 | produtores | Minha mãe produz alimentos em casa e está pensando em participar. Como ela pode descobrir os requisitos para ser produtora? | Pergunta sobre requisitos de ingresso. Confirmar a abrangência de produtores antes de aprovar o rótulo. |
-| 218 | produtores | Participo de um projeto de agricultura na faculdade e queria saber se o grupo pode se candidatar para atuar como produtor na feira. | Pergunta se um grupo pode se candidatar. Confirmar a abrangência de produtores antes de aprovar o rótulo. |
-| 219 | produtores | Conheci o Mercado Escola numa visita com a escola e fiquei com vontade de saber como funciona a participação dos produtores. | “Como funciona a participação” pode pedir informações sobre os participantes ou sobre ingresso. Tornar o objetivo explícito após definir a abrangência da intenção. |
-| 220 | produtores | Já vendo peças feitas à mão em eventos do bairro e gostaria de saber se há um processo para entrar como produtora participante. | Pergunta sobre processo de ingresso. Confirmar a abrangência de produtores antes de aprovar o rótulo. |
-| 221 | produtores | Estou ajudando um colega que quer expor o que produz no Mercado Escola; onde ele pode consultar as orientações para participar? | Pede orientações para começar a expor. Confirmar a abrangência de produtores antes de aprovar o rótulo. |
-| 230 | produtores | Tem produtor cadastrado? | “Produtor cadastrado” pode indicar a existência de participantes ou cadastro para ingresso. Sugestão para o primeiro sentido: “Há produtores participando da feira?”. |
-| 235 | objetivo | Qual é a proposta central do Mercado Escola para a comunidade escolar? | “Comunidade escolar” destoa do contexto universitário definido no projeto. Sugestão: “Qual é a proposta central do Mercado Escola para a comunidade acadêmica?”. Manter objetivo. |
-
-A intenção produtores tem a descrição “produtores participantes” no grupo.yaml, enquanto a descrição geral do tema também menciona “como participar”. As dúvidas de ingresso foram deixadas para decisão do grupo por essa diferença de abrangência. Este parecer preserva a configuração atual e os exemplos dos integrantes.
+A conferência final verificou o cabeçalho texto,intencao,origem, três campos em cada linha e a correspondência das frases aprovadas nos dois CSVs. Os textos e rótulos humanos, as frases da primeira rodada de horário e localização, os demais registros dos integrantes e dados/teste.csv foram preservados.
