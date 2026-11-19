@@ -1,4 +1,6 @@
 texto,intencao,origem
+
+# HORARIO -> 35 Hum / 42 IA
 Que horas começa a feira?,horario,humano
 Que horas fecha a feira?,horario,humano
 Que dia é a feira?,horario,humano
@@ -7,12 +9,34 @@ A feira abre na sexta?,horario,humano
 Até que horas o campus fica aberto para eu acessar o mercado escola?,horario,humano
 que dias da semana o mercado escola fica aberto?,horario,humano
 quais são os melhores horários para chegar no mercado escola e por que?,horario,humano
-O mercado escola tem horários em que a feira fica mais movimentada?,horario,humano
-Horario de funcionamento do mercado escola,horario,humano
-Qual horário o mercado escola fecha?,horario,humano
-Qual o pior horário para chegar no mercado escola?,horario,humano
-qual horario que os feirantes começam a chegar no mercado escola?,horario,humano
+O mercado escola tem horários em que a feira fica mais movimentada?, horario,humano
+Horario de funcionamento do mercado escola, horario, humano
+Qual horário o mercado escola fecha?, horario, humano
+Qual o pior horário para chegar no mercado escola?, horario, humano
+qual horario que os feirantes começam a chegar no mercado escola?, horario, humano
 horario que mais pessoas chegam no mercado escola,horario,humano
+que hrs abre?,horario,humano
+qual o horario de funcionamento?,horario,humano
+que hrs vcs estao abertos?,horario,humano
+apartir de que horas o mercado escola abre?,horario,humano
+opa, abre as 7:00?,horario,humano
+voces abrem as 14?,horario,humano
+abre as 9p.m?,horario,humano
+que horas voces estao abrindo?,horario,humano
+no sabado vcs fecham que horas?,horario,humano
+que horario vcs tao funcionando?,horario,humano
+que horas e para chegar?,horario,humano
+qual horario devo chegar?,horario,humano
+tem algum horario melhor para chegar?,horario,humano
+pode chegar um pouco mais cedo?,horario,humano
+pode ir mais tarde para evitar lotacao?,horario,humano
+horario para ir embora?,horario,humano
+compensa chegar cedo?,horario,humano
+que hrs comeca?,horario,humano
+horario de encerramento,horario,humano
+abre de madrugada o mercado escola?,horario,humano
+funciona de madrugada?,horario,humano
+
 Você poderia me informar qual é o horário de funcionamento do Mercado Escola?,horario,llm
 "Por gentileza, até que horas o Mercado Escola fica aberto?",horario,llm
 Gostaria de saber em quais horários posso visitar o Mercado Escola.,horario,llm
@@ -55,6 +79,10 @@ Horário de funcionamento?,horario,llm
 Funciona aos sábados?,horario,llm
 Abre hoje?,horario,llm
 Até que horas?,horario,llm
+
+
+
+# LOCALIZACAO -> 31 Hum / 38 IA
 Onde é a feira do Mercado Escola?,localizacao,humano
 É perto da onde?,localizacao,humano
 A feira acontece dentro da ufms?,localizacao,humano
@@ -67,6 +95,27 @@ Local: mercado escola,localizacao,humano
 onde que fica localizado o mercado escola,localizacao,humano
 para onde é o mercado escola,localizacao,humano
 O mercado escola se localiza em qual região da ufms?,localizacao,humano
+da um ponto de referencia ai,localizacao,humano
+ponto de referencia para o mercado escola,localizacao,humano
+mercado escola, como ir,localizacao,humano
+como ir para o mercado escola,localizacao,humano
+eu moro no rita vieira, fica ha quantos quilometros do mercado escola?,localizacao,humano
+posso ir de onibus par ao mercado escola?,localizacao,humano
+o mercado escola e proximo de onde?,localizacao,humano
+local:mercado escola, como ir?,localizacao,humano
+quero ir ao mercado escola,localizacao,humano
+cd mercado escola?,localizacao,humano
+outros pontos de referencia para o mercado escola,localizacao,humano
+tem algum bar proximo ao mercado escola?,localizacao,humano
+como ir: mercado escola,localizacao,humano
+mercado escola, como chegar?,localizacao,humano
+mercado escola localizacao,localizacao,humano
+como ir para ai?,localizacao,humano
+como posso ir ai?,localizacao,humano
+quero chegar ai, como faço?,localizacao,humano
+como consigo chegar ai?,localizacao,humano
+
+
 Você poderia me informar onde fica o Mercado Escola?,localizacao,llm
 "Por gentileza, em que local do campus acontece a feira do Mercado Escola?",localizacao,llm
 Estou planejando visitar a feira; poderia me dizer qual é o endereço do Mercado Escola?,localizacao,llm
@@ -105,9 +154,51 @@ Qual é o local da feira?,localizacao,llm
 Tem um mapa mostrando onde fica a feira?,localizacao,llm
 Como chego à feira?,localizacao,llm
 Qual a localização do Mercado Escola?,localizacao,llm
+
+
+
+# PAGAMENTO -> 37 Hum / 50 IA
 Na feira aceitam pix?,pagamento,humano
 Na feira aceitam boleto?,pagamento,humano
 La na feira aceitam cheque?,pagamento,humano
+quais pagamentos são aceitos no mercado escola?,pagamento,humano
+que tipo de pagamento é aceito?,pagamento,humano
+posso pagar em fiado?,pagamento,humano
+como posso pagar pelos produtos locais?,pagamento,humano
+como da pra pagar?,pagamento,humano
+posso pagar de quais formas?,pagamento,humano
+eu consigo pagar com cartão?,pagamento,humano
+eu consigo parcelar alguns produtos da feira?,pagamento,humano
+da pra pagar como?,pagamento,humano
+como que paga la?,pagamento,humano
+eu consigo pagar com?,pagamento,humano
+na feira rola pagamento por pix?,pagamento,humano
+consigo passar cartão la no mercado escola?,pagamento,humano
+quais são os meios de pagamento da feira?,pagamento,humano
+eles recebem dinheiro ou só cartão?,pagamento,humano
+da para quitar as compras com boleto?,pagamento,humano
+Posso usar meu cartão de débito na feira?,pagamento,humano
+Aceitam pagamento em dinheiro por ai?,pagamento,humano
+Como funciona na hora de pagar as compras?,pagamento,humano
+Tem como dividir o valor das compras?,pagamento,humano
+O mercado escola aceita transferencia bancária?,pagamento,humano
+Queria saber se vcs recebem pix?,pagamento,humano
+É possivel pagar com cheque na feira?,pagamento,humano
+Quais opções tenho pra pagar pelos alimentos?,pagamento,humano
+Tem como comprar e pagar depois?,pagamento,humano
+A feira trabalha com quais formas de pagamento?,pagamento,humano
+Posso fazer o pagamento pelo celular?,pagamento,humano
+Vcs aceitam cartão de crédito ou débito?,pagamento,humano
+Como faço pra pagar oq eu comprar ai?,pagamento,humano
+Tem alguma outra maneira de pagar sem ser dinheiro?,pagamento,humano
+Da pra parcela as compras feitas na feira?,pagamento,humano
+O pagamento pode ser feito por transferência?,pagamento,humano
+Queria sabe quais pagamentos vcs aceitam?,pagamento,humano
+Consigo pagar os produtos no crédito?,pagamento,humano
+Tem como deixar pra pagar numa outra hora?,pagamento,humano
+Qual é o jeito de paga pelas mercadorias?,pagamento,humano
+Aceitam outras formas de pagamento além do pix?,pagamento,humano
+
 "Por gentileza, quais formas de pagamento são aceitas no Mercado Escola?",pagamento,llm
 Gostaria de saber se posso pagar minhas compras com cartão de crédito.,pagamento,llm
 Vocês aceitam Pix como forma de pagamento no Mercado Escola?,pagamento,llm
@@ -158,6 +249,9 @@ Posso pagar em dinheiro?,pagamento,llm
 Pix é aceito?,pagamento,llm
 Parcelam no cartão?,pagamento,llm
 Aceitam vale-refeição?,pagamento,llm
+
+
+# PRODUTOS -> 46 Hum / 50 IA
 tem geleia?,produtos,humano
 quero geleia,produtos,humano
 qual sabor de geleia vocês tem,produtos,humano
@@ -168,6 +262,43 @@ quero doces,produtos,humano
 doce?,produtos,humano
 o que tem aí pra filar boia?,produtos,humano
 o que tem de diferente na feira?,produtos,humano
+tem doces no mercado escola?,produtos,humano
+quais são os catalogos de produtos presentes nessa feira?,produtos,humano
+quantos tipos de produtos existem?,produtos,humano
+tem local para comer nessa feira?,produtos,humano
+oque tem de bom para comer?,produtos,humano
+quais produtos são interessantes para levar para a casa?,produtos,humano
+os produtos são todos de origem local?,produtos,humano
+todos os produtos são de origem do pantanal?,produtos,humano
+de onde vem os produtos?,produtos,humano
+tem produtos de conserva como mel, doce de leite e etc?,produtos,humano
+Vcs vendem algum tipo de geleia?,produtos,humano
+Queria comprar umas geleias, tem ai?,produtos,humano
+Quais sabores de geleia tão disponiveis?,produtos,humano
+Tem peças feitas a mão pra vender?,produtos,humano
+O que tem de legal pra dar de lembrança?,produtos,humano
+To procurando algo pra presentear uma pessoa, tem?,produtos,humano
+Tem alguma variedade de guloseimas por ai?,produtos,humano
+Vcs comercializam algum tipo de doce?,produtos,humano
+O que tem pra comer nessa feirinha?,produtos,humano
+Quais coisas diferentes consigo encontrar por ai?,produtos,humano
+No mercado escola vende algum tipo de sobremesa?,produtos,humano
+Onde posso ver a relação dos itens que estão a venda?,produtos,humano
+Quantas variedades de mercadorias tem no local?,produtos,humano
+Tem algum cantinho pra fazer uma refeição na feira?,produtos,humano
+Quais comidas gostosas tem pra experimentar?,produtos,humano
+O que vcs recomendam comprar pra consumir em casa?,produtos,humano
+As mercadorias vendidas são produzidas aqui na região?,produtos,humano
+Os itens comercializados são todos feitos no Pantanal?,produtos,humano
+Qual a procedencia das coisas que vcs vendem?,produtos,humano
+Tem conservas e produtos caseiros tipo mel e doce de leite?,produtos,humano
+Vende compotas ou geleias de frutas por ai?,produtos,humano
+Tem algum trabalho artesanal feito pelos produtores?,produtos,humano
+Queria levar uns quitutes pra casa, oq vcs tem?,produtos,humano
+Quais são as opções de comida que tem nessa feira?,produtos,humano
+Tem produtos regionais diferentes pra conhecer?,produtos,humano
+Vcs tem mel, compotas e outras coisas desse tipo?,produtos,humano
+
 "Por gentileza, quais produtos estão disponíveis no Mercado Escola?",produtos,llm
 Você poderia me informar que tipos de produtos posso encontrar por lá?,produtos,llm
 Gostaria de saber quais itens estão sendo oferecidos no Mercado Escola atualmente.,produtos,llm
@@ -218,6 +349,10 @@ Tem produtos veganos?,produtos,llm
 Que itens encontro?,produtos,llm
 Há mel à venda?,produtos,llm
 Quais opções de produtos?,produtos,llm
+
+
+
+# PRODUTORES -> 41 HUM / 50 IA
 cm posso vender?,produtores,humano
 como posso vender?,produtores,humano
 posso ser feirante?,produtores,humano
@@ -226,6 +361,40 @@ o que precisa para vender?,produtores,humano
 oq precisa pr vender?,produtores,humano
 quero vender tambem,produtores,humano
 os produtores são certificados?,produtores,humano
+gostaria de ratificar meus produtos para venda no mercado escola,produtores,humano
+como que faz pra vender nessa feira?,produtores,humano
+como que vende meus produtos nessa feira?,produtores,humano
+sou um produtor gostaria de vender meus produtos ai,produtores,humano
+sou vendedor do estado de Minas Gerais posso vender meus produtos nessa feira?,produtores,humano
+como que pode ve nder oque eu faço para o mercado escola?,produtores,humano
+como que me cadastro para o mercado escola?,produtores,humano
+Queria saber como faço pra comercializar meus produtos?,produtores,humano
+Como faço pra participar como vendedor da feira?,produtores,humano
+Tem como eu entrar pra equipe de feirantes?,produtores,humano
+Quero começar a oferecer minhas mercadorias, como faço?,produtores,humano
+Quais são os requisitos pra poder vender ai?,produtores,humano
+O que eu tenho que ter pra conseguir vender na feira?,produtores,humano
+Tenho interesse em colocar meus produtos a venda tbm,produtores,humano
+Os vendedores precisam ter algum tipo de certificação?,produtores,humano
+Como faço pra regularizar meus produtos pra comercializar no mercado escola?,produtores,humano
+Qual o procedimento pra conseguir vender nessa feirinha?,produtores,humano
+Como posso disponibilizar minhas mercadorias pra venda no local?,produtores,humano
+Trabalho com produção e queria oferecer meus produtos pra vcs,produtores,humano
+Sou de Minas e tenho interesse em comercializar minhas mercadorias nessa feira, pode?,produtores,humano
+Como faço pra vender as coisas que eu produzo pro mercado escola?,produtores,humano
+Onde consigo fazer minha inscrição pra participar do mercado escola?,produtores,humano
+Tem alguma vaga pra novos produtores na feira?,produtores,humano
+Como faço pra me tornar um fornecedor de vcs?,produtores,humano
+Precisa de algum documento pra poder expor meus produtos?,produtores,humano
+Quero trabalhar como expositor nessa feira, como faço?,produtores,humano
+Quais etapas preciso seguir pra vender meus produtos ai?,produtores,humano
+Posso participar da feira sendo pequeno produtor?,produtores,humano
+Como faço pra colocar meus produtos pra serem vendidos por vcs?,produtores,humano
+Tem que fazer algum cadastro antes de começar a vender?,produtores,humano
+Sou produtor rural e gostaria de participar dessa iniciativa, como funciona?,produtores,humano
+Vcs aceitam novos vendedores no mercado escola?,produtores,humano
+Queria me inscreve pra fornecer meus produtos pra feira, onde faço isso?,produtores,humano
+
 "Por gentileza, quem são os produtores que participam do Mercado Escola?",produtores,llm
 Você poderia me informar quais produtores fazem parte da feira?,produtores,llm
 Gostaria de saber se há uma lista dos produtores participantes do Mercado Escola.,produtores,llm
@@ -276,6 +445,47 @@ Quem produz na feira?,produtores,llm
 Agricultores participantes?,produtores,llm
 Tem produtor cadastrado?,produtores,llm
 Quais são os produtores?,produtores,llm
+
+
+
+# OBJETIVO -> 36 HUM / 50 IA
+bom dia, quao o objetivo desse mercado escola?,objetivo,humano
+dia, por que esse mercado existe?,objetivo,humano
+qual o proposito desse mercado escola?,objetivo,humano
+por que esse mercado escola existe?,objetivo,humano
+tarde, esse mercaod escola ta aberto por que?,objetivo,humano
+oque essa feira influencia?,objetivo,humano
+qual o proposito de existir um comercio assim?,objetivo,humano
+de que forma essa feira ajuda com os comerciantes?,objetivo,humano
+eu sou um produtor rural,como essa feira pode me ajudar?,objetivo,humano
+o proposito dessa feira e qual?,objetivo,humano
+Pra que serve esse mercado escola?,objetivo,humano
+Bom dia, queria entender qual a finalidade desse espaço?,objetivo,humano
+Qual é a ideia por trás desse projeto?,objetivo,humano
+O que vcs querem alcançar com esse mercado?,objetivo,humano
+Boa tarde, qual foi o motivo de criarem essa feira?,objetivo,humano
+Que tipo de impacto esse mercado causa na região?,objetivo,humano
+Por que decidiram montar um comércio desse tipo?,objetivo,humano
+Como essa iniciativa contribui pros vendedores locais?,objetivo,humano
+Sou agricultor, de que jeito essa feira pode beneficiar meu trabalho?,objetivo,humano
+O que levou a criação do mercado escola?,objetivo,humano
+Qual a importância desse espaço para a comunidade?,objetivo,humano
+Esse projeto foi criado pra ajudar quem produz na região?,objetivo,humano
+Quais são os beneficios que essa feira traz pra cidade?,objetivo,humano
+Queria saber qual a função principal desse mercado,objetivo,humano
+O que motivou vcs a abrir esse espaço de vendas?,objetivo,humano
+Como esse projeto fortalece os pequenos produtores?,objetivo,humano
+Qual a proposta desse comércio aqui?,objetivo,humano
+De que maneira o mercado escola ajuda os agricultores?,objetivo,humano
+Esse lugar tem como objetivo apoiar os produtores locais?,objetivo,humano
+Qual o papel dessa feira no desenvolvimento da região?,objetivo,humano
+Boa noite, queria saber pq esse mercado foi criado?,objetivo,humano
+O que vcs pretendem oferecer pra população com essa iniciativa?,objetivo,humano
+Como essa feira pode melhorar a vida dos comerciantes?,objetivo,humano
+Qual é a razão de manter esse espaço funcionando?,objetivo,humano
+Esse mercado foi pensado pra incentivar a produção local?,objetivo,humano
+Queria entender melhor qual o foco desse projeto ai,objetivo,humano
+
 "Por gentileza, qual é o principal objetivo do Mercado Escola?",objetivo,llm
 Poderia me explicar com que finalidade a feira Mercado Escola foi criada?,objetivo,llm
 Gostaria de entender qual propósito o Mercado Escola busca cumprir.,objetivo,llm
@@ -366,6 +576,48 @@ blz vlw,chitchat,humano
 ta bom,chitchat,humano
 tabom,chitchat,humano
 ta,chitchat,humano
+"beleza, valeu", chitchat, humano
+"beleza, vlw", chitchat, humano
+"blz, valeu", chitchat, humano
+"blz, vlw",chitchat,humano
+ta bom, chitchat, humano
+tabom, chitchat, humano
+ta, chitchat, humano
+boa tarde!,chitchat,humano
+boa noite, tudo bem?,chitchat,humano
+tarde, bao?,chitchat,humano
+como vai?,chitchat,humano
+vc esta bem?,chitchat,humano
+ola chat, como tu ta?,chitchat,humano
+obr pela ajuda!,chitchat,humano
+vlw, cara,chitchat,humano
+nss,chitchat,humano
+caramba, que incrivel!,chitchat,humano
+nossa, impressionante!,chitchat,humano
+fantastico,chitchat,humano
+perdão,chitchat,humano
+desculpas por isso,chitchat,humano
+como vc está?,chitchat,humano
+como vai?,chitchat,humano
+boa noite chat, como voce esta?,chitchat,humano
+está bem chat?,chitchat,humano
+vc e fantastico!,chitchat,humano
+obr pela ajuda,chitchat,humano
+fecho,chitchat,humano
+certo, obrigado,chitchat,humano
+olha,nao sabia, obrigado pela ajuda,chitchat,humano
+incrivel tudo isso,chitchat,humano
+mas por que isso?,chitchat,humano
+isso e bom,pq?,chitchat,humano
+pq é bom?,chitchat,humano
+como isso me ajuda?,chitchat,humano
+opa meu nobre, como tu ta?,chitchat,humano
+fala truta, tudo em cima?,chitchat,humano
+fala meu rei,bao?,chitchat,humano
+show!,chitchat,humano
+oi amor!,chitchat,humano
+
+# FORA_DOMINIO -> 45 Hum
 Vai chover hoje?,fora_dominio,humano
 tem tempestade quinta?,fora_dominio,humano
 quem vai ganhar o brasileirão?,fora_dominio,humano
@@ -411,3 +663,7 @@ que horas o ru abre?,fora_dominio,humano
 quanto custa comer no ru?,fora_dominio,humano
 valor ru,fora_dominio,humano
 como chegar no ru?,fora_dominio,humano
+valor ru, fora_dominio,humano
+como chegar no ru?,fora_dominio,humano
+mas como isso afeta o gremio?,fora_dominio,humano
+palkia, giratina ou dialga?,fora_dominio,humano
