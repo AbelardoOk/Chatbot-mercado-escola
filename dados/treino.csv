@@ -1,21 +1,18 @@
 texto,intencao,origem
-
-# HORARIO -> 14 Hum / 42 IA
 Que horas começa a feira?,horario,humano
 Que horas fecha a feira?,horario,humano
 Que dia é a feira?,horario,humano
 A feira abre na sexta?,horario,humano
-"Opa, que horas abre o mercado escola hoje, chefe?", horario,humano
-Até que horas o campus fica aberto para eu acessar o mercado escola?, horario,humano
+"Opa, que horas abre o mercado escola hoje, chefe?",horario,humano
+Até que horas o campus fica aberto para eu acessar o mercado escola?,horario,humano
 que dias da semana o mercado escola fica aberto?,horario,humano
 quais são os melhores horários para chegar no mercado escola e por que?,horario,humano
-O mercado escola tem horários em que a feira fica mais movimentada?, horario,humano
-Horario de funcionamento do mercado escola, horario, humano
-Qual horário o mercado escola fecha?, horario, humano
-Qual o pior horário para chegar no mercado escola?, horario, humano
-qual horario que os feirantes começam a chegar no mercado escola?, horario, humano
-horario que mais pessoas chegam no mercado escola, horario, humano
-
+O mercado escola tem horários em que a feira fica mais movimentada?,horario,humano
+Horario de funcionamento do mercado escola,horario,humano
+Qual horário o mercado escola fecha?,horario,humano
+Qual o pior horário para chegar no mercado escola?,horario,humano
+qual horario que os feirantes começam a chegar no mercado escola?,horario,humano
+horario que mais pessoas chegam no mercado escola,horario,humano
 Você poderia me informar qual é o horário de funcionamento do Mercado Escola?,horario,llm
 "Por gentileza, até que horas o Mercado Escola fica aberto?",horario,llm
 Gostaria de saber em quais horários posso visitar o Mercado Escola.,horario,llm
@@ -58,10 +55,6 @@ Horário de funcionamento?,horario,llm
 Funciona aos sábados?,horario,llm
 Abre hoje?,horario,llm
 Até que horas?,horario,llm
-
-
-
-# LOCALIZACAO -> 12 Hum / 38 IA
 Onde é a feira do Mercado Escola?,localizacao,humano
 É perto da onde?,localizacao,humano
 A feira acontece dentro da ufms?,localizacao,humano
@@ -74,7 +67,6 @@ Local: mercado escola,localizacao,humano
 onde que fica localizado o mercado escola,localizacao,humano
 para onde é o mercado escola,localizacao,humano
 O mercado escola se localiza em qual região da ufms?,localizacao,humano
-
 Você poderia me informar onde fica o Mercado Escola?,localizacao,llm
 "Por gentileza, em que local do campus acontece a feira do Mercado Escola?",localizacao,llm
 Estou planejando visitar a feira; poderia me dizer qual é o endereço do Mercado Escola?,localizacao,llm
@@ -113,14 +105,9 @@ Qual é o local da feira?,localizacao,llm
 Tem um mapa mostrando onde fica a feira?,localizacao,llm
 Como chego à feira?,localizacao,llm
 Qual a localização do Mercado Escola?,localizacao,llm
-
-
-
-# PAGAMENTO -> 3 Hum / 50 IA
 Na feira aceitam pix?,pagamento,humano
 Na feira aceitam boleto?,pagamento,humano
 La na feira aceitam cheque?,pagamento,humano
-
 "Por gentileza, quais formas de pagamento são aceitas no Mercado Escola?",pagamento,llm
 Gostaria de saber se posso pagar minhas compras com cartão de crédito.,pagamento,llm
 Vocês aceitam Pix como forma de pagamento no Mercado Escola?,pagamento,llm
@@ -171,20 +158,16 @@ Posso pagar em dinheiro?,pagamento,llm
 Pix é aceito?,pagamento,llm
 Parcelam no cartão?,pagamento,llm
 Aceitam vale-refeição?,pagamento,llm
-
-
-# PRODUTOS -> 10 Hum / 50 IA
-tem geleia?, produtos, humano
-quero geleia, produtos, humano
-qual sabor de geleia vocês tem, produtos, humano
-tem artesanato?, produtos, humano
-tem alguma coisa para dar de presente?, produtos, humano
-quero presentear alguem, produtos, humano
-quero doces, produtos, humano
-doce?, produtos, humano
-o que tem aí pra filar boia? produtos, humano
-o que tem de diferente na feira? produtos, humano
-
+tem geleia?,produtos,humano
+quero geleia,produtos,humano
+qual sabor de geleia vocês tem,produtos,humano
+tem artesanato?,produtos,humano
+tem alguma coisa para dar de presente?,produtos,humano
+quero presentear alguem,produtos,humano
+quero doces,produtos,humano
+doce?,produtos,humano
+o que tem aí pra filar boia?,produtos,humano
+o que tem de diferente na feira?,produtos,humano
 "Por gentileza, quais produtos estão disponíveis no Mercado Escola?",produtos,llm
 Você poderia me informar que tipos de produtos posso encontrar por lá?,produtos,llm
 Gostaria de saber quais itens estão sendo oferecidos no Mercado Escola atualmente.,produtos,llm
@@ -235,19 +218,14 @@ Tem produtos veganos?,produtos,llm
 Que itens encontro?,produtos,llm
 Há mel à venda?,produtos,llm
 Quais opções de produtos?,produtos,llm
-
-
-
-# PRODUTORES -> 6 HUM / 50 IA
-cm posso vender?, produtores, humano
-como posso vender?, produtores, humano
-posso ser feirante?, produtores, humano
-como começar a vender, produtores, humano
-o que precisa para vender?, produtores, humano
-oq precisa pr vender?, produtores, humano
-quero vender tambem, produtores, humano
-os produtores são certificados?, produtores, humano
-
+cm posso vender?,produtores,humano
+como posso vender?,produtores,humano
+posso ser feirante?,produtores,humano
+como começar a vender,produtores,humano
+o que precisa para vender?,produtores,humano
+oq precisa pr vender?,produtores,humano
+quero vender tambem,produtores,humano
+os produtores são certificados?,produtores,humano
 "Por gentileza, quem são os produtores que participam do Mercado Escola?",produtores,llm
 Você poderia me informar quais produtores fazem parte da feira?,produtores,llm
 Gostaria de saber se há uma lista dos produtores participantes do Mercado Escola.,produtores,llm
@@ -298,11 +276,6 @@ Quem produz na feira?,produtores,llm
 Agricultores participantes?,produtores,llm
 Tem produtor cadastrado?,produtores,llm
 Quais são os produtores?,produtores,llm
-
-
-
-# OBJETIVO -> 0 HUM / 50 IA
-
 "Por gentileza, qual é o principal objetivo do Mercado Escola?",objetivo,llm
 Poderia me explicar com que finalidade a feira Mercado Escola foi criada?,objetivo,llm
 Gostaria de entender qual propósito o Mercado Escola busca cumprir.,objetivo,llm
@@ -353,10 +326,6 @@ Feira serve pra quê?,objetivo,llm
 Meta do Mercado Escola?,objetivo,llm
 Objetivo do Mercado Escola?,objetivo,llm
 A feira busca quê?,objetivo,llm
-
-
-
-# CHITCHAT -> 44 Hum
 Boa tarde!,chitchat,humano
 Bom dia,chitchat,humano
 Boa noite,chitchat,humano
@@ -378,32 +347,25 @@ brigadão,chitchat,humano
 Estou falando com um bot?,chitchat,humano
 Grato pela ajuda,chitchat,humano
 Ter-vos-ei em grande consideração,chitchat,humano
-blz, chitchat, humano
-blzz, chitchat, humano
-vlw, chitchat, humano
-vlww, chitchat, humano
-tmj, chitchat, humano
-obgdd, chitchat, humano
-bgd, chitchat, humano
-valeuu, chitchat, humano
-oi, chitchat, humano
-oii, chitchat, humano
-oie, chitchat, humano
-legal, chitchat, humano
-beleza valeu, chitchat, humano
-beleza vlw, chitchat, humano
-blz valeu, chitchat, humano
+blz,chitchat,humano
+blzz,chitchat,humano
+vlw,chitchat,humano
+vlww,chitchat,humano
+tmj,chitchat,humano
+obgdd,chitchat,humano
+bgd,chitchat,humano
+valeuu,chitchat,humano
+oi,chitchat,humano
+oii,chitchat,humano
+oie,chitchat,humano
+legal,chitchat,humano
+beleza valeu,chitchat,humano
+beleza vlw,chitchat,humano
+blz valeu,chitchat,humano
 blz vlw,chitchat,humano
-"beleza, valeu", chitchat, humano
-"beleza, vlw", chitchat, humano
-"blz, valeu", chitchat, humano
-"blz, vlw",chitchat,humano
-ta bom, chitchat, humano
-tabom, chitchat, humano
-ta, chitchat, humano
-
-
-# FORA_DOMINIO -> 45 Hum
+ta bom,chitchat,humano
+tabom,chitchat,humano
+ta,chitchat,humano
 Vai chover hoje?,fora_dominio,humano
 tem tempestade quinta?,fora_dominio,humano
 quem vai ganhar o brasileirão?,fora_dominio,humano
@@ -444,8 +406,8 @@ onde fica a feira do bosque da paz?,fora_dominio,humano
 A feira do bosque da paz funciona sexta?,fora_dominio,humano
 No terminal aceitam boleto?,fora_dominio,humano
 O terminal abre as 8 amanhã?,fora_dominio,humano
-qual cardapio do r.u hoje?, fora_dominio, humano
-que horas o ru abre?, fora_dominio, humano
-quanto custa comer no ru?, fora_dominio, humano
-valor ru, fora_dominio, humano
-como chegar no ru?, fora_dominio, humano
+qual cardapio do r.u hoje?,fora_dominio,humano
+que horas o ru abre?,fora_dominio,humano
+quanto custa comer no ru?,fora_dominio,humano
+valor ru,fora_dominio,humano
+como chegar no ru?,fora_dominio,humano
