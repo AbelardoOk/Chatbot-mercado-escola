@@ -56,6 +56,24 @@ catálogo visual da marca.
 - **Categoria:** Geleias tradicionais
 - **Sabor:** Tamarindo
 
+### Geleia de goiaba
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias tradicionais
+- **Sabor:** Goiaba
+
+### Geleia de jabuticaba
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias tradicionais
+- **Sabor:** Jabuticaba
+
+### Geleia de figo
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias tradicionais
+- **Sabor:** Figo
+
 ## Geleias do Cerrado
 
 ### Geleia de guavira
@@ -93,6 +111,18 @@ catálogo visual da marca.
 - **Produtor:** De Colher em Colher
 - **Categoria:** Geleias do Cerrado
 - **Sabor:** Manteiga com baru
+
+### Geleia de cagaita
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias do Cerrado
+- **Sabor:** Cagaita
+
+### Geleia de buriti
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias do Cerrado
+- **Sabor:** Buriti
 
 ## Geleias agridoce
 
@@ -143,6 +173,24 @@ catálogo visual da marca.
 - **Produtor:** De Colher em Colher
 - **Categoria:** Geleias agridoce
 - **Sabor:** Cebola
+
+### Geleia de morango com pimenta
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias agridoce
+- **Sabor:** Morango com pimenta
+
+### Geleia de pimenta biquinho
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias agridoce
+- **Sabor:** Pimenta biquinho
+
+### Chutney de manga
+
+- **Produtor:** De Colher em Colher
+- **Categoria:** Geleias agridoce
+- **Sabor:** Manga
 
 ## Informações sobre o catálogo
 
